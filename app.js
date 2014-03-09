@@ -1,0 +1,1 @@
+var worldCupApp = angular.module('worldCupApp', []);

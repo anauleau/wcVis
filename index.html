@@ -1,0 +1,54 @@
+<!doctype html>
+<html ng-app="worldCupApp">
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>World Cup Data Vis</title>
+        <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+        <link rel="stylesheet" href="styles/main.css">
+    </head>
+    <body ng-app="worldCupApp">
+        <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                    </button>
+                    <a class="navbar-brand" href="#">World Cup Data Visualizations</a>
+                </div>
+                <div class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="#">Home</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="starter-template" ng-controller="mainViewCtrl">
+                <div id="area"></div>
+            </div>
+        </div>
+
+        <!-- Le Javascript -->
+
+        <!-- Libs -->
+        <script src="bower_components/jquery/dist/jquery.js"></script>
+        <script src="bower_components/d3/d3.js"></script>
+        <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+        <script src="bower_components/angular/angular.js"></script>
+
+        <!-- App -->
+        <script src="app.js"></script>
+        <script src="scripts/routes.js"></script>
+
+        <!-- Controllers -->
+        <script src="scripts/controllers/appearancesCtrl.js"></script>
+        <script src="scripts/controllers/mainViewCtrl.js"></script>
+
+        <!-- Services -->
+        <script src="scripts/services/dataService.js"></script>        
+        <script src="scripts/services/visualService.js"></script>
+    </body>
+</html>
