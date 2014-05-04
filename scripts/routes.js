@@ -5,8 +5,8 @@ worldCupApp.config(function($routeProvider) {
         templateUrl: 'app.html',
         controller: 'AppCtrl'
       })
-      .when('/tournamentArrays', {
-        template: 'tournamentGameSummaryView.html',
-        controller: 'tournamentGameSummaryCtrl.js'
+      .when('/tournamentSummaries', {
+        templateUrl: 'views/tournamentGameSummaryView.html',
+        controller: 'tournamentGameSummaryCtrl'
       })
 });
