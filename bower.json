@@ -1,0 +1,25 @@
+{
+  "name": "World Cup Data Vis",
+  "version": "0.0.1",
+  "homepage": "www.anauleau.com/wcVis",
+  "authors": [
+    "Andreas Nauleau <anauleau@gmail.com>"
+  ],
+  "description": "World Cup Data Vis with Angular",
+  "main": "index.html",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-ui": "~0.4.0",
+    "angular": "~1.2.14",
+    "angularfire": "~0.7.0",
+    "bootstrap": "~3.1.1",
+    "d3": "~3.4.3"
+  }
+}
