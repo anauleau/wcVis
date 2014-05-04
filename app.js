@@ -1,1 +1,1 @@
-var worldCupApp = angular.module('worldCupApp', []);
+var worldCupApp = angular.module('worldCupApp', ['ngRoute']);

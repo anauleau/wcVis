@@ -20,6 +20,7 @@
     "angular": "~1.2.14",
     "angularfire": "~0.7.0",
     "bootstrap": "~3.1.1",
-    "d3": "~3.4.3"
+    "d3": "~3.4.3",
+    "angular-route": "~1.2.16"
   }
 }
