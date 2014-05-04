@@ -1,0 +1,65 @@
+Date,Time,Venue,Stage,Team 1,Team 1 Goals,Team 2,Team 2 Goals,Overtime,Penalties,Team 2 Penalties,Team 1 Penalties,Stage Details
+6/11/2010,16:00,Johannesburg (SC),Group A,South Africa,1,Mexico,1,FALSE,FALSE,undefined,undefined,First round of group stage matches
+6/11/2010,20:30,Cape Town,Group A,Uruguay,0,France,0,FALSE,FALSE,undefined,undefined,First round of group stage matches
+6/12/2010,13:30,Port Elizabeth,Group B,South Korea ,2,Greece,0,FALSE,FALSE,undefined,undefined,First round of group stage matches
+6/12/2010,16:00,Johannesburg (EP),Group B,Argentina ,1,Nigeria,0,FALSE,FALSE,undefined,undefined,First round of group stage matches
+6/12/2010,20:30,Rustenburg,Group C,England ,1,United States,1,FALSE,FALSE,undefined,undefined,First round of group stage matches
+6/13/2010,13:30,Polokwane,Group C,Algeria ,0,Slovenia,1,FALSE,FALSE,undefined,undefined,First round of group stage matches
+6/13/2010,16:00,Pretoria,Group D,Serbia ,0,Ghana,1,FALSE,FALSE,undefined,undefined,First round of group stage matches
+6/13/2010,20:30,Durban,Group D,Germany ,4,Australia,0,FALSE,FALSE,undefined,undefined,First round of group stage matches
+6/14/2010,13:30,Johannesburg (SC),Group E,Netherlands ,2,Denmark,0,FALSE,FALSE,undefined,undefined,First round of group stage matches
+6/14/2010,16:00,Bloemfontein,Group E,Japan ,1,Cameroon,0,FALSE,FALSE,undefined,undefined,First round of group stage matches
+6/14/2010,20:30,Cape Town,Group F,Italy ,1,Paraguay,1,FALSE,FALSE,undefined,undefined,First round of group stage matches
+6/15/2010,13:30,Rustenburg,Group F,New Zealand ,1,Slovakia,1,FALSE,FALSE,undefined,undefined,First round of group stage matches
+6/15/2010,16:00,Port Elizabeth,Group G,Ivory Coast ,0,Portugal,0,FALSE,FALSE,undefined,undefined,First round of group stage matches
+6/15/2010,20:30,Johannesburg (EP),Group G,Brazil ,2,North Korea,1,FALSE,FALSE,undefined,undefined,First round of group stage matches
+6/16/2010,13:30,Nelspruit,Group H,Honduras ,0,Chile,1,FALSE,FALSE,undefined,undefined,First round of group stage matches
+6/16/2010,16:00,Durban,Group H,Spain ,0,Switzerland,1,FALSE,FALSE,undefined,undefined,First round of group stage matches
+6/16/2010,20:30,Pretoria,Group A,South Africa ,0,Uruguay,3,FALSE,FALSE,undefined,undefined,Second round of group stage matches
+6/17/2010,13:30,Johannesburg (SC),Group B,Argentina ,4,South Korea,1,FALSE,FALSE,undefined,undefined,Second round of group stage matches
+6/17/2010,16:00,Bloemfontein,Group B,Greece ,2,Nigeria,1,FALSE,FALSE,undefined,undefined,Second round of group stage matches
+6/17/2010,20:30,Polokwane,Group A,France ,0,Mexico,2,FALSE,FALSE,undefined,undefined,Second round of group stage matches
+6/18/2010,13:30,Port Elizabeth,Group D,Germany ,0,Serbia,1,FALSE,FALSE,undefined,undefined,Second round of group stage matches
+6/18/2010,16:00,Johannesburg (EP),Group C,Slovenia ,2,United States,2,FALSE,FALSE,undefined,undefined,Second round of group stage matches
+6/18/2010,20:30,Cape Town,Group C,England ,0,Algeria,0,FALSE,FALSE,undefined,undefined,Second round of group stage matches
+6/19/2010,13:30,Durban,Group E,Netherlands ,1,Japan,0,FALSE,FALSE,undefined,undefined,Second round of group stage matches
+6/19/2010,16:00,Rustenburg,Group D,Ghana ,1,Australia,1,FALSE,FALSE,undefined,undefined,Second round of group stage matches
+6/19/2010,20:30,Pretoria,Group E,Cameroon ,1,Denmark,2,FALSE,FALSE,undefined,undefined,Second round of group stage matches
+6/20/2010,13:30,Bloemfontein,Group F,Slovakia ,0,Paraguay,2,FALSE,FALSE,undefined,undefined,Second round of group stage matches
+6/20/2010,16:00,Nelspruit,Group F,Italy ,1,New Zealand,1,FALSE,FALSE,undefined,undefined,Second round of group stage matches
+6/20/2010,20:30,Johannesburg (SC),Group G,Brazil ,3,Ivory Coast,1,FALSE,FALSE,undefined,undefined,Second round of group stage matches
+6/21/2010,13:30,Cape Town,Group G,Portugal ,7,North Korea,0,FALSE,FALSE,undefined,undefined,Second round of group stage matches
+6/21/2010,16:00,Port Elizabeth,Group H,Chile ,1,Switzerland,0,FALSE,FALSE,undefined,undefined,Second round of group stage matches
+6/21/2010,20:30,Johannesburg (EP),Group H,Spain ,2,Honduras,0,FALSE,FALSE,undefined,undefined,Second round of group stage matches
+6/22/2010,16:00,Rustenburg,Group A,Mexico,0,Uruguay,1,FALSE,FALSE,undefined,undefined,Third round of group stage matches
+6/22/2010,16:00,Bloemfontein,Group A,France ,1,South Africa,2,FALSE,FALSE,undefined,undefined,Third round of group stage matches
+6/22/2010,20:30,Durban,Group B,Nigeria,2,South Korea,2,FALSE,FALSE,undefined,undefined,Third round of group stage matches
+6/22/2010,20:30,Polokwane,Group B,Greece ,0,Argentina,2,FALSE,FALSE,undefined,undefined,Third round of group stage matches
+6/23/2010,16:00,Port Elizabeth,Group C,Slovenia ,0,England,1,FALSE,FALSE,undefined,undefined,Third round of group stage matches
+6/23/2010,16:00,Pretoria,Group C,United States,1,Algeria,0,FALSE,FALSE,undefined,undefined,Third round of group stage matches
+6/23/2010,20:30,Johannesburg (SC),Group D,Ghana ,0,Germany,1,FALSE,FALSE,undefined,undefined,Third round of group stage matches
+6/23/2010,20:30,Nelspruit,Group D,Australia,2,Serbia,1,FALSE,FALSE,undefined,undefined,Third round of group stage matches
+6/24/2010,16:00,Johannesburg (EP),Group F,Slovakia ,3,Italy,2,FALSE,FALSE,undefined,undefined,Third round of group stage matches
+6/24/2010,16:00,Polokwane,Group F,Paraguay,0,New Zealand,0,FALSE,FALSE,undefined,undefined,Third round of group stage matches
+6/24/2010,20:30,Rustenburg,Group E,Denmark,1,Japan,3,FALSE,FALSE,undefined,undefined,Third round of group stage matches
+6/24/2010,20:30,Cape Town,Group E,Cameroon ,1,Netherlands,2,FALSE,FALSE,undefined,undefined,Third round of group stage matches
+6/25/2010,16:00,Durban,Group G,Portugal ,0,Brazil,0,FALSE,FALSE,undefined,undefined,Third round of group stage matches
+6/25/2010,16:00,Nelspruit,Group G,North Korea,0,Ivory Coast,3,FALSE,FALSE,undefined,undefined,Third round of group stage matches
+6/25/2010,20:30,Pretoria,Group H,Chile ,1,Spain,2,FALSE,FALSE,undefined,undefined,Third round of group stage matches
+6/25/2010,20:30,Bloemfontein,Group H,Switzerland,0,Honduras,0,FALSE,FALSE,undefined,undefined,Third round of group stage matches
+6/26/2010,16:00,Port Elizabeth,Round of 16,Uruguay,2,South Korea,1,FALSE,FALSE,undefined,undefined,undefined
+6/26/2010,20:30,Rustenburg,Round of 16,United States,1,Ghana,2,TRUE,FALSE,undefined,undefined,undefined
+6/27/2010,16:00,Bloemfontein,Round of 16,Germany ,4,England,1,FALSE,FALSE,undefined,undefined,undefined
+6/27/2010,20:30,Johannesburg (SC),Round of 16,Argentina ,3,Mexico,1,FALSE,FALSE,undefined,undefined,undefined
+6/28/2010,16:00,Durban,Round of 16,Netherlands ,2,Slovakia,1,FALSE,FALSE,undefined,undefined,undefined
+6/28/2010,20:30,Johannesburg (EP),Round of 16,Brazil ,3,Chile,0,FALSE,FALSE,undefined,undefined,undefined
+6/29/2010,16:00,Pretoria,Round of 16,Paraguay,0,Japan,0,TRUE,TRUE,5,3,undefined
+6/29/2010,20:30,Cape Town,Round of 16,Spain ,1,Portugal,0,FALSE,FALSE,undefined,undefined,undefined
+7/2/2010,16:00,Port Elizabeth,Quarter-finals,Netherlands ,2,Brazil,1,FALSE,FALSE,undefined,undefined,undefined
+7/2/2010,20:30,Johannesburg (SC),Quarter-finals,Uruguay,1,Ghana,1,TRUE,TRUE,4,5,undefined
+7/3/2010,16:00,Cape Town,Quarter-finals,Argentina ,0,Germany,4,FALSE,FALSE,undefined,undefined,undefined
+7/3/2010,20:30,Johannesburg (EP),Quarter-finals,Paraguay,0,Spain,1,FALSE,FALSE,undefined,undefined,undefined
+7/6/2010,20:30,Cape Town,Semi-finals,Uruguay,2,Netherlands,3,FALSE,FALSE,undefined,undefined,undefined
+7/7/2010,20:30,Durban,Semi-finals,Germany ,0,Spain,1,FALSE,FALSE,undefined,undefined,undefined
+7/10/2010,20:30,Port Elizabeth,Match for third place,Uruguay,2,Germany,3,FALSE,FALSE,undefined,undefined,undefined
+7/11/2010,20:30,Johannesburg (SC),Final,Netherlands ,0,Spain,1,TRUE,FALSE,undefined,undefined,undefined
