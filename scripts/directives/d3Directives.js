@@ -30,7 +30,7 @@ worldCupApp.directive('tournamentChordGraph', [function(){
             .attr("height", height)
             .append("g")
             .attr("id", "circle")
-            .style({'fill': '#E8EFF3'})
+            .style({'fill': '#E8EFF3 '})
             .attr("transform", "translate(" + width / 2 + "," + height / 2 + ")");
 
         svg.append("circle")
@@ -115,3 +115,4 @@ worldCupApp.directive('tournamentChordGraph', [function(){
         controller: controller
     };
 }]);
+
