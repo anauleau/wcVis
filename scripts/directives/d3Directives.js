@@ -35,8 +35,8 @@ worldCupApp.directive('tournamentChordGraph', [function(){
 
         svg.append("circle")
             .attr("r", outerRadius);
-        d3.json("data/cities.json", function(cities) {
-            d3.json("data/matrix.json", function(matrix) {
+        d3.json("data/countryDefaults/colors.json", function(cities) {
+            d3.json("data/testMatrix.json", function(matrix) {
 
                 // Compute the chord layout.
                 layout.matrix(matrix);
