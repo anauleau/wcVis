@@ -1,0 +1,1145 @@
+{
+   "1930":{
+      "host":"Uruguay",
+      "summary":{
+         "totalGoals":70,
+         "matchesPlayed":18,
+         "attendance":590549
+      },
+      "teams":[
+         "Uruguay",
+         "Argentina",
+         "United States",
+         "Yugoslavia",
+         "Chile",
+         "Brazil",
+         "France",
+         "Romania",
+         "Paraguay",
+         "Peru",
+         "Belgium",
+         "Bolivia",
+         "Mexico"
+      ],
+      "results":{
+         "champion":"Uruguay",
+         "second":"Argentina",
+         "third":"United States",
+         "fourth":"Yugoslavia",
+         "group":[
+            "Chile",
+            "Brazil",
+            "France",
+            "Romania",
+            "Paraguay",
+            "Peru",
+            "Belgium",
+            "Bolivia",
+            "Mexico"
+         ]
+      }
+   },
+   "1934":{
+      "host":"Italy",
+      "summary":{
+         "totalGoals":70,
+         "matchesPlayed":17,
+         "attendance":358000
+      },
+      "teams":[
+         "Italy",
+         "Czechoslovakia",
+         "Germany",
+         "Austria",
+         "Spain",
+         "Hungary",
+         "Switzerland",
+         "Sweden",
+         "France",
+         "Argentina",
+         "Netherlands",
+         "Romania",
+         "Egypt",
+         "Brazil",
+         "Belgium",
+         "United States"
+      ],
+      "results":{
+         "champion":"Italy",
+         "second":"Czechoslovakia",
+         "third":"Germany",
+         "fourth":"Austria",
+         "quarters":[
+            "Spain",
+            "Hungary",
+            "Switzerland",
+            "Sweden"
+         ],
+         "roundOf16":[
+            "France",
+            "Argentina",
+            "Netherlands",
+            "Romania",
+            "Egypt",
+            "Brazil",
+            "Belgium",
+            "United States"
+         ]
+      }
+   },
+   "1938":{
+      "host":"France",
+      "summary":{
+         "totalGoals":84,
+         "matchesPlayed":18,
+         "attendance":483000
+      },
+      "teams":[
+         "Italy",
+         "Hungary",
+         "Brazil",
+         "Sweden",
+         "Czechoslovakia",
+         "France",
+         "Switzerland",
+         "Cuba",
+         "Romania",
+         "Germany",
+         "Poland",
+         "Norway",
+         "Belgium",
+         "Netherlands",
+         "Indonesia"
+      ],
+      "results":{
+         "champion":"Italy",
+         "second":"Hungary",
+         "third":"Brazil",
+         "fourth":"Sweden",
+         "quarters":[
+            "Czechoslovakia",
+            "France",
+            "Switzerland",
+            "Cuba"
+         ],
+         "roundOf16":[
+            "Romania",
+            "Germany",
+            "Poland",
+            "Norway",
+            "Belgium",
+            "Netherlands",
+            "Indonesia"
+         ]
+      }
+   },
+   "1950":{
+      "host":"Brazil",
+      "summary":{
+         "totalGoals":88,
+         "matchesPlayed":88,
+         "attendance":1043500
+      },
+      "teams":[
+         "Uruguay",
+         "Brazil",
+         "Sweden",
+         "Spain",
+         "Yugoslavia",
+         "Switzerland",
+         "Italy",
+         "England",
+         "Chile",
+         "United States",
+         "Paraguay",
+         "Mexico",
+         "Bolivia"
+      ],
+      "results":{
+         "champion":"Uruguay",
+         "second":"Brazil",
+         "third":"Sweden",
+         "fourth":"Spain",
+         "group":[
+            "Yugoslavia",
+            "Switzerland",
+            "Italy",
+            "England",
+            "Chile",
+            "United States",
+            "Paraguay",
+            "Mexico",
+            "Bolivia"
+         ]
+      }
+   },
+   "1954":{
+      "host":"Switzerland",
+      "summary":{
+         "totalGoals":140,
+         "matchesPlayed":26,
+         "attendance":889500
+      },
+      "teams":[
+         "Germany",
+         "Hungary",
+         "Austria",
+         "Uruguay",
+         "Switzerland",
+         "Brazil",
+         "England",
+         "Yugoslavia",
+         "Turkey",
+         "Italy",
+         "France",
+         "Belgium",
+         "Mexico",
+         "Czechoslovakia",
+         "Scotland",
+         "South Korea"
+      ],
+      "results":{
+         "champion":"Germany",
+         "second":"Hungary",
+         "third":"Austria",
+         "fourth":"Uruguay",
+         "quarters":[
+            "Switzerland",
+            "Brazil",
+            "England",
+            "Yugoslavia"
+         ],
+         "group":[
+            "Turkey",
+            "Italy",
+            "France",
+            "Belgium",
+            "Mexico",
+            "Czechoslovakia",
+            "Scotland",
+            "South Korea"
+         ]
+      }
+   },
+   "1958":{
+      "host":"Sweden",
+      "summary":{
+         "totalGoals":126,
+         "matchesPlayed":35,
+         "attendance":919580
+      },
+      "teams":[
+         "Brazil",
+         "Sweden",
+         "France",
+         "Germany",
+         "Yugoslavia",
+         "Wales",
+         "Soviet Union",
+         "Northern Ireland",
+         "Czechoslovakia",
+         "Hungary",
+         "England",
+         "Paraguay",
+         "Argentina",
+         "Scotland",
+         "Austria",
+         "Mexico"
+      ],
+      "results":{
+         "champion":"Brazil",
+         "second":"Sweden",
+         "third":"France",
+         "fourth":"Germany",
+         "quarters":[
+            "Yugoslavia",
+            "Wales",
+            "Soviet Union",
+            "Northern Ireland"
+         ],
+         "group":[
+            "Czechoslovakia",
+            "Hungary",
+            "England",
+            "Paraguay",
+            "Argentina",
+            "Scotland",
+            "Austria",
+            "Mexico"
+         ]
+      }
+   },
+   "1962":{
+      "host":"Chile",
+      "summary":{
+         "totalGoals":89,
+         "matchesPlayed":32,
+         "attendance":899074
+      },
+      "teams":[
+         "Brazil",
+         "Czechoslovakia",
+         "Chile",
+         "Yugoslavia",
+         "Hungary",
+         "Soviet Union",
+         "Germany",
+         "England",
+         "Italy",
+         "Argentina",
+         "Mexico",
+         "Uruguay",
+         "Spain",
+         "Colombia",
+         "Bulgaria",
+         "Switzerland"
+      ],
+      "results":{
+         "champion":"Brazil",
+         "second":"Czechoslovakia",
+         "third":"Chile",
+         "fourth":"Yugoslavia",
+         "quarters":[
+            "Hungary",
+            "Soviet Union",
+            "Germany",
+            "England"
+         ],
+         "group":[
+            "Italy",
+            "Argentina",
+            "Mexico",
+            "Uruguay",
+            "Spain",
+            "Colombia",
+            "Bulgaria",
+            "Switzerland"
+         ]
+      }
+   },
+   "1966":{
+      "host":"England",
+      "summary":{
+         "totalGoals":89,
+         "matchesPlayed":32,
+         "attendance":1635000
+      },
+      "teams":[
+         "England",
+         "Germany",
+         "Portugal",
+         "Soviet Union",
+         "Argentina",
+         "Hungary",
+         "Uruguay",
+         "North Korea",
+         "Italy",
+         "Spain",
+         "Brazil",
+         "Mexico",
+         "France",
+         "Chile",
+         "Bulgaria",
+         "Switzerland"
+      ],
+      "results":{
+         "champion":"England",
+         "second":"Germany",
+         "third":"Portugal",
+         "fourth":"Soviet Union",
+         "quarters":[
+            "Argentina",
+            "Hungary",
+            "Uruguay",
+            "North Korea"
+         ],
+         "group":[
+            "Italy",
+            "Spain",
+            "Brazil",
+            "Mexico",
+            "France",
+            "Chile",
+            "Bulgaria",
+            "Switzerland"
+         ]
+      }
+   },
+   "1970":{
+      "host":"Mexico",
+      "summary":{
+         "totalGoals":95,
+         "matchesPlayed":32,
+         "attendance":1603975
+      },
+      "teams":[
+         "Brazil",
+         "Italy",
+         "Germany",
+         "Uruguay",
+         "Soviet Union",
+         "Mexico",
+         "Peru",
+         "England",
+         "Sweden",
+         "Belgium",
+         "Romania",
+         "Israel",
+         "Bulgaria",
+         "Morocco",
+         "Czechoslovakia",
+         "El Salvador"
+      ],
+      "results":{
+         "champion":"Brazil",
+         "second":"Italy",
+         "third":"Germany",
+         "fourth":"Uruguay",
+         "quarters":[
+            "Soviet Union",
+            "Mexico",
+            "Peru",
+            "England"
+         ],
+         "group":[
+            "Sweden",
+            "Belgium",
+            "Romania",
+            "Israel",
+            "Bulgaria",
+            "Morocco",
+            "Czechoslovakia",
+            "El Salvador"
+         ]
+      }
+   },
+   "1974":{
+      "host":"Germany",
+      "summary":{
+         "totalGoals":97,
+         "matchesPlayed":38,
+         "attendance":1774022
+      },
+      "teams":[
+         "Germany",
+         "Netherlands",
+         "Poland",
+         "Brazil",
+         "Sweden",
+         "East Germany",
+         "Yugoslavia",
+         "Argentina",
+         "Scotland",
+         "Italy",
+         "Chile",
+         "Bulgaria",
+         "Uruguay",
+         "Australia",
+         "Haiti",
+         "Democratic Republic of the Congo"
+      ],
+      "results":{
+         "champion":"Germany",
+         "second":"Netherlands",
+         "third":"Poland",
+         "fourth":"Brazil",
+         "quarters":[
+            "Sweden",
+            "East Germany",
+            "Yugoslavia",
+            "Argentina"
+         ],
+         "group":[
+            "Scotland",
+            "Italy",
+            "Chile",
+            "Bulgaria",
+            "Uruguay",
+            "Australia",
+            "Haiti",
+            "Democratic Republic of the Congo"
+         ]
+      }
+   },
+   "1978":{
+      "host":"Argentina",
+      "summary":{
+         "totalGoals":102,
+         "matchesPlayed":38,
+         "attendance":1546151
+      },
+      "teams":[
+         "Argentina",
+         "Netherlands",
+         "Brazil",
+         "Italy",
+         "Poland",
+         "Germany",
+         "Austria",
+         "Peru",
+         "Tunisia",
+         "Spain",
+         "Scotland",
+         "France",
+         "Sweden",
+         "Iran",
+         "Hungary",
+         "Mexico"
+      ],
+      "results":{
+         "champion":"Argentina",
+         "second":"Netherlands",
+         "third":"Brazil",
+         "fourth":"Italy",
+         "quarters":[
+            "Poland",
+            "Germany",
+            "Austria",
+            "Peru"
+         ],
+         "group":[
+            "Tunisia",
+            "Spain",
+            "Scotland",
+            "France",
+            "Sweden",
+            "Iran",
+            "Hungary",
+            "Mexico"
+         ]
+      }
+   },
+   "1982":{
+      "host":"Spain",
+      "summary":{
+         "totalGoals":146,
+         "matchesPlayed":52,
+         "attendance":2109723
+      },
+      "teams":[
+         "Italy",
+         "Germany",
+         "Poland",
+         "France",
+         "Brazil",
+         "England",
+         "Soviet Union",
+         "Austria",
+         "Northern Ireland",
+         "Belgium",
+         "Argentina",
+         "Spain",
+         "Algeria",
+         "Hungary",
+         "Scotland",
+         "Yugoslavia",
+         "Cameroon",
+         "Honduras",
+         "Czechoslovakia",
+         "Peru",
+         "Kuwait",
+         "Chile",
+         "New Zealand",
+         "El Salvador"
+      ],
+      "results":{
+         "champion":"Italy",
+         "second":"Germany",
+         "third":"Poland",
+         "fourth":"France",
+         "quarters":[
+            "Brazil",
+            "England",
+            "Soviet Union",
+            "Austria",
+            "Northern Ireland",
+            "Belgium",
+            "Argentina",
+            "Spain"
+         ],
+         "group":[
+            "Algeria",
+            "Hungary",
+            "Scotland",
+            "Yugoslavia",
+            "Cameroon",
+            "Honduras",
+            "Czechoslovakia",
+            "Peru",
+            "Kuwait",
+            "Chile",
+            "New Zealand",
+            "El Salvador"
+         ]
+      }
+   },
+   "1986":{
+      "host":"Mexico",
+      "summary":{
+         "totalGoals":132,
+         "matchesPlayed":52,
+         "attendance":2393031
+      },
+      "teams":[
+         "Argentina",
+         "Germany",
+         "France",
+         "Belgium",
+         "Brazil",
+         "Mexico",
+         "Spain",
+         "England",
+         "Denmark",
+         "Soviet Union",
+         "Morocco",
+         "Italy",
+         "Paraguay",
+         "Poland",
+         "Bulgaria",
+         "Uruguay",
+         "Portugal",
+         "Hungary",
+         "Scotland",
+         "South Korea",
+         "Northern Ireland",
+         "Algeria",
+         "Iraq",
+         "Canada"
+      ],
+      "results":{
+         "champion":"Argentina",
+         "second":"Germany",
+         "third":"France",
+         "fourth":"Belgium",
+         "quarters":[
+            "Brazil",
+            "Mexico",
+            "Spain",
+            "England"
+         ],
+         "roundOf16":[
+            "Denmark",
+            "Soviet Union",
+            "Morocco",
+            "Italy",
+            "Paraguay",
+            "Poland",
+            "Bulgaria",
+            "Uruguay"
+         ],
+         "group":[
+            "Portugal",
+            "Hungary",
+            "Scotland",
+            "South Korea",
+            "Northern Ireland",
+            "Algeria",
+            "Iraq",
+            "Canada"
+         ]
+      }
+   },
+   "1990":{
+      "host":"Italy",
+      "summary":{
+         "totalGoals":115,
+         "matchesPlayed":52,
+         "attendance":2516348
+      },
+      "teams":[
+         "Germany",
+         "Argentina",
+         "Italy",
+         "England",
+         "Yugoslavia",
+         "Czechoslovakia",
+         "Cameroon",
+         "Republic of Ireland",
+         "Brazil",
+         "Spain",
+         "Belgium",
+         "Costa Rica",
+         "Romania",
+         "Colombia",
+         "Netherlands",
+         "Uruguay",
+         "Soviet Union",
+         "Scotland",
+         "Austria",
+         "Egypt",
+         "Sweden",
+         "South Korea",
+         "United States",
+         "United Arab Emirates"
+      ],
+      "results":{
+         "champion":"Germany",
+         "second":"Argentina",
+         "third":"Italy",
+         "fourth":"England",
+         "quarters":[
+            "Yugoslavia",
+            "Czechoslovakia",
+            "Cameroon",
+            "Republic of Ireland"
+         ],
+         "roundOf16":[
+            "Brazil",
+            "Spain",
+            "Belgium",
+            "Costa Rica",
+            "Romania",
+            "Colombia",
+            "Netherlands",
+            "Uruguay"
+         ],
+         "group":[
+            "Soviet Union",
+            "Scotland",
+            "Austria",
+            "Egypt",
+            "Sweden",
+            "South Korea",
+            "United States",
+            "United Arab Emirates"
+         ]
+      }
+   },
+   "1994":{
+      "host":"United States",
+      "summary":{
+         "totalGoals":141,
+         "matchesPlayed":52,
+         "attendance":3587538
+      },
+      "teams":[
+         "Brazil",
+         "Italy",
+         "Sweden",
+         "Bulgaria",
+         "Germany",
+         "Romania",
+         "Netherlands",
+         "Spain",
+         "Nigeria",
+         "Argentina",
+         "Belgium",
+         "Saudi Arabia",
+         "Mexico",
+         "United States",
+         "Switzerland",
+         "Republic of Ireland",
+         "Norway",
+         "Russia",
+         "Colombia",
+         "South Korea",
+         "Bolivia",
+         "Cameroon",
+         "Morocco",
+         "Greece"
+      ],
+      "results":{
+         "champion":"Brazil",
+         "second":"Italy",
+         "third":"Sweden",
+         "fourth":"Bulgaria",
+         "quarters":[
+            "Germany",
+            "Romania",
+            "Netherlands",
+            "Spain"
+         ],
+         "roundOf16":[
+            "Nigeria",
+            "Argentina",
+            "Belgium",
+            "Saudi Arabia",
+            "Mexico",
+            "United States",
+            "Switzerland",
+            "Republic of Ireland"
+         ],
+         "group":[
+            "Norway",
+            "Russia",
+            "Colombia",
+            "South Korea",
+            "Bolivia",
+            "Cameroon",
+            "Morocco",
+            "Greece"
+         ]
+      }
+   },
+   "1998":{
+      "host":"France",
+      "summary":{
+         "totalGoals":171,
+         "matchesPlayed":64,
+         "attendance":2785100
+      },
+      "teams":[
+         "France",
+         "Brazil",
+         "Croatia",
+         "Netherlands",
+         "Italy",
+         "Argentina",
+         "Germany",
+         "Denmark",
+         "England",
+         "Serbia and Montenegro",
+         "Romania",
+         "Nigeria",
+         "Mexico",
+         "Paraguay",
+         "Norway",
+         "Chile",
+         "Spain",
+         "Morocco",
+         "Belgium",
+         "Iran",
+         "Colombia",
+         "Jamaica",
+         "Austria",
+         "South Africa",
+         "Cameroon",
+         "Tunisia",
+         "Scotland",
+         "Saudi Arabia",
+         "Bulgaria",
+         "South Korea",
+         "Japan",
+         "United States"
+      ],
+      "results":{
+         "champion":"France",
+         "second":"Brazil",
+         "third":"Croatia",
+         "fourth":"Netherlands",
+         "quarters":[
+            "Italy",
+            "Argentina",
+            "Germany",
+            "Denmark"
+         ],
+         "roundOf16":[
+            "England",
+            "Serbia and Montenegro",
+            "Romania",
+            "Nigeria",
+            "Mexico",
+            "Paraguay",
+            "Norway",
+            "Chile"
+         ],
+         "group":[
+            "Spain",
+            "Morocco",
+            "Belgium",
+            "Iran",
+            "Colombia",
+            "Jamaica",
+            "Austria",
+            "South Africa",
+            "Cameroon",
+            "Tunisia",
+            "Scotland",
+            "Saudi Arabia",
+            "Bulgaria",
+            "South Korea",
+            "Japan",
+            "United States"
+         ]
+      }
+   },
+   "2002":{
+      "host":"South Korea & Japan",
+      "summary":{
+         "totalGoals":161,
+         "matchesPlayed":64,
+         "attendance":2705197
+      },
+      "teams":[
+         "Brazil",
+         "Germany",
+         "Turkey",
+         "South Korea",
+         "Spain",
+         "England",
+         "Senegal",
+         "United States",
+         "Japan",
+         "Denmark",
+         "Mexico",
+         "Republic of Ireland",
+         "Sweden",
+         "Belgium",
+         "Italy",
+         "Paraguay",
+         "South Africa",
+         "Argentina",
+         "Costa Rica",
+         "Cameroon",
+         "Portugal",
+         "Russia",
+         "Croatia",
+         "Ecuador",
+         "Poland",
+         "Uruguay",
+         "Nigeria",
+         "France",
+         "Tunisia",
+         "Slovenia",
+         "China PR",
+         "Saudi Arabia"
+      ],
+      "results":{
+         "champion":"Brazil",
+         "second":"Germany",
+         "third":"Turkey",
+         "fourth":"South Korea",
+         "quarters":[
+            "Spain",
+            "England",
+            "Senegal",
+            "United States"
+         ],
+         "roundOf16":[
+            "Japan",
+            "Denmark",
+            "Mexico",
+            "Republic of Ireland",
+            "Sweden",
+            "Belgium",
+            "Italy",
+            "Paraguay"
+         ],
+         "group":[
+            "South Africa",
+            "Argentina",
+            "Costa Rica",
+            "Cameroon",
+            "Portugal",
+            "Russia",
+            "Croatia",
+            "Ecuador",
+            "Poland",
+            "Uruguay",
+            "Nigeria",
+            "France",
+            "Tunisia",
+            "Slovenia",
+            "China PR",
+            "Saudi Arabia"
+         ]
+      }
+   },
+   "2006":{
+      "host":"Germany",
+      "summary":{
+         "totalGoals":147,
+         "matchesPlayed":64,
+         "attendance":3359429
+      },
+      "teams":[
+         "Italy",
+         "France",
+         "Germany",
+         "Portugal",
+         "Brazil",
+         "Argentina",
+         "England",
+         "Ukraine",
+         "Spain",
+         "Switzerland",
+         "Netherlands",
+         "Ecuador",
+         "Ghana",
+         "Sweden",
+         "Mexico",
+         "Australia",
+         "South Korea",
+         "Paraguay",
+         "Ivory Coast",
+         "Czech Republic",
+         "Poland",
+         "Croatia",
+         "Angola",
+         "Tunisia",
+         "United States",
+         "Iran",
+         "Trinidad and Tobago",
+         "Japan",
+         "Saudi Arabia",
+         "Togo",
+         "Costa Rica",
+         "Serbia and Montenegro"
+      ],
+      "results":{
+         "champion":"Italy",
+         "second":"France",
+         "third":"Germany",
+         "fourth":"Portugal",
+         "quarters":[
+            "Brazil",
+            "Argentina",
+            "England",
+            "Ukraine"
+         ],
+         "roundOf16":[
+            "Spain",
+            "Switzerland",
+            "Netherlands",
+            "Ecuador",
+            "Ghana",
+            "Sweden",
+            "Mexico",
+            "Australia"
+         ],
+         "group":[
+            "South Korea",
+            "Paraguay",
+            "Ivory Coast",
+            "Czech Republic",
+            "Poland",
+            "Croatia",
+            "Angola",
+            "Tunisia",
+            "United States",
+            "Iran",
+            "Trinidad and Tobago",
+            "Japan",
+            "Saudi Arabia",
+            "Togo",
+            "Costa Rica",
+            "Serbia and Montenegro"
+         ]
+      }
+   },
+   "2010":{
+      "host":"South Africa",
+      "summary":{
+         "totalGoals":145,
+         "matchesPlayed":64,
+         "attendance":3178856
+      },
+      "teams":[
+         "Australia",
+         "Japan",
+         "North Korea",
+         "South Korea",
+         "Algeria",
+         "Cameroon",
+         "Ivory Coast",
+         "Ghana",
+         "Nigeria",
+         "South Africa",
+         "Honduras",
+         "Mexico",
+         "United States",
+         "Argentina",
+         "Brazil",
+         "Chile",
+         "Paraguay",
+         "Uruguay",
+         "New Zealand",
+         "Denmark",
+         "England",
+         "France",
+         "Germany",
+         "Greece",
+         "Italy",
+         "Netherlands",
+         "Portugal",
+         "Serbia",
+         "Slovakia",
+         "Slovenia",
+         "Spain",
+         "Switzerland"
+      ],
+      "results":{
+         "champion":"Spain",
+         "second":"Netherlands",
+         "third":"Germany",
+         "fourth":"Uruguay",
+         "quarters":[
+            "Argentina",
+            "Brazil",
+            "Ghana",
+            "Paraguay"
+         ],
+         "roundOf16":[
+            "Japan",
+            "Chile",
+            "Portugal",
+            "United States",
+            "England",
+            "Mexico",
+            "South Korea",
+            "Slovakia"
+         ],
+         "group":[
+            "Ivory Coast",
+            "Slovenia",
+            "Switzerland",
+            "South Africa",
+            "Australia",
+            "New Zealand",
+            "Serbia",
+            "Denmark",
+            "Greece",
+            "Italy",
+            "Nigeria",
+            "Algeria",
+            "France",
+            "Honduras",
+            "Cameroon",
+            "North Korea"
+         ]
+      }
+   },
+   "2014":{
+      "host":"Brazil",
+      "summary":{
+
+      },
+      "teams":[
+         "Australia",
+         "Iran",
+         "Japan",
+         "South Korea",
+         "Algeria",
+         "Cameroon",
+         "Ghana",
+         "Ivory Coast",
+         "Nigeria",
+         "Costa Rica",
+         "Honduras",
+         "Mexico",
+         "United States",
+         "Argentina",
+         "Brazil",
+         "Chile",
+         "Colombia",
+         "Ecuador",
+         "Uruguay",
+         "Belgium",
+         "Bosnia and Herzegovina",
+         "Croatia",
+         "England",
+         "France",
+         "Germany",
+         "Greece",
+         "Italy",
+         "Netherlands",
+         "Portugal",
+         "Russia",
+         "Spain",
+         "Switzerland"
+      ],
+      "results":{
+
+      }
+   }
+}

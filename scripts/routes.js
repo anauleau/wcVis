@@ -2,8 +2,8 @@ worldCupApp.config(function($routeProvider) {
     $routeProvider
       .when('/',
       {
-        templateUrl: 'app.html',
-        controller: 'AppCtrl'
+        templateUrl: 'views/searchHome.html',
+        controller: 'homeCtrl'
       })
       .when('/tournamentSummaries', {
         templateUrl: 'views/tournamentGameSummaryView.html',
