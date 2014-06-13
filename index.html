@@ -10,9 +10,33 @@
         <link rel="stylesheet" href="styles/main.css">
     </head>
     <body>
-        <div ng-app="worldCupApp">
-            <ng-view></ng-view>
+        <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                    </button>
+                    <a class="navbar-brand" href="#">World Cup Data</a>
+                </div>
+            </div>
         </div>
+
+        <div class="container-fluid" ng-app="worldCupApp">
+            <div class="row">
+                <div class="col-sm-3 col-md-2 sidebar">
+                    <ul class="nav nav-sidebar">
+                        <li class="active"><a href="#">Summary</a></li>
+                        <li><a href="#">Games</a></li>
+                        <li><a href="#">Teams</a></li>
+                        <li><a href="#">Tournaments</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+                    <ng-view></ng-view>
+                </div>
+            </div>
+        </div>
+    </body>
 
         <!-- Le Javascript -->
 
@@ -35,8 +59,7 @@
         <script src="scripts/controllers/mainViewCtrl.js"></script>
 
         <!-- Services -->
-        <script src="scripts/services/dataService.js"></script>        
-        <script src="scripts/services/visualService.js"></script>
+        <script src="scripts/services/dataService.js"></script>
 
         <!-- Directives -->
         <script src="scripts/directives/d3Directives.js"></script>
