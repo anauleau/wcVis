@@ -50,7 +50,7 @@ worldCupApp.directive('tournamentChordGraph', [function(){
 
                 // Add a mouseover title.
                 group.append("title").text(function(d, i) {
-                  return cities[i].name + ": " + formatPercent(d.value) + " of origins";
+                  return cities[i].name + " allowed " + parseInt(d.value) + " Goals";
                 });
 
                 // Add the group arc.
@@ -82,12 +82,10 @@ worldCupApp.directive('tournamentChordGraph', [function(){
 
                 // Add an elaborate mouseover title for each chord.
                 chord.append("title").text(function(d) {
-                  return cities[d.source.index].name
-                      + " → " + cities[d.target.index].name
-                      + ": " + formatPercent(d.source.value)
-                      + "\n" + cities[d.target.index].name
-                      + " → " + cities[d.source.index].name
-                      + ": " + formatPercent(d.target.value);
+                  return cities[d.target.index].name
+                      + ": " + parseInt(d.source.value)
+                      + "\n" + cities[d.source.index].name
+                      + ": " + parseInt(d.target.value);
                 });
 
                 function mouseover(d, i) {
