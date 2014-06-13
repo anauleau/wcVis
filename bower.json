@@ -18,10 +18,10 @@
   "dependencies": {
     "angular-ui": "~0.4.0",
     "angular": "~1.2.14",
-    "angularfire": "~0.7.0",
     "bootstrap": "~3.1.1",
     "d3": "~3.4.3",
     "angular-route": "~1.2.16",
-    "angular-ui-select2": "~0.0.5"
+    "angular-ui-select2": "~0.0.5",
+    "nvd3": "~1.1.15-beta"
   }
 }

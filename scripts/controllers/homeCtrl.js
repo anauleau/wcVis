@@ -1,3 +1,7 @@
+/**
+ * This
+ */
+
 worldCupApp.controller('homeCtrl', ['$scope', 'dataService',
     function ($scope, dataService) {
         $scope.searchOptions = {

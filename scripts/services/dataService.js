@@ -1,25 +1,37 @@
+/**
+ * This service returns data getting methods which are used to inject JSON
+ * into controllers that need the data
+ */
 worldCupApp.service('dataService', ['$http', '$q',
     function ($http, $q) {
-        // _getAppearances returns country level appearance data {'country': #appearances}
-        function _getAppearances (){
+
+        function _getGames (){
             var deferred = $q.defer();
-            $http.get('data/appearances.json').success(function(result) {
+            $http.get('data/games.json').success(function(result) {
                 deferred.resolve(result);
             });
             return deferred.promise;
         }
 
-        // _getDataByTourney returns an obj with tournement data {'touranmentYear': {'data'}}
-        function _getDataByTourney (){
+        function _getTeams (){
             var deferred = $q.defer();
-            $http.get('data/wcDataByYear.json').success(function(result) {
+            $http.get('data/teams.json').success(function(result) {
+                deferred.resolve(result);
+            });
+            return deferred.promise;
+        }
+
+        function _getTournaments (){
+            var deferred = $q.defer();
+            $http.get('data/tournamentSummaries.json').success(function(result) {
                 deferred.resolve(result);
             });
             return deferred.promise;
         }
 
         return {
-            getAppearances: _getAppearances,
-            getDataByTourney: _getDataByTourney
+            getGames: _getGames,
+            getTeams: _getTeams,
+            getTournaments: _getTournaments
         }
     }]);
