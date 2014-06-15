@@ -22,6 +22,7 @@
     "d3": "~3.4.3",
     "angular-route": "~1.2.16",
     "angular-ui-select2": "~0.0.5",
-    "nvd3": "~1.1.15-beta"
+    "nvd3": "~1.1.15-beta",
+    "angularjs-nvd3-directives": "~0.0.7"
   }
 }

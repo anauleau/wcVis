@@ -1101,9 +1101,11 @@
    },
    "2014":{
       "host":"Brazil",
-      "summary":{
-
-      },
+       "summary":{
+           "totalGoals":1,
+           "matchesPlayed":1,
+           "attendance":1
+       },
       "teams":[
          "Australia",
          "Iran",

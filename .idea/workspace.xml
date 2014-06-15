@@ -2,15 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b68b9b90-5966-4c92-8cb7-7543f8288383" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/scripts/controllers/mainViewCtrl.js" afterPath="$PROJECT_DIR$/scripts/controllers/summaryCtrl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/games.html" afterPath="$PROJECT_DIR$/views/games.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/controllers/gamesCtrl.js" afterPath="$PROJECT_DIR$/scripts/controllers/gamesCtrl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/d3/.bower.json" afterPath="$PROJECT_DIR$/bower_components/d3/.bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/d3/LICENSE" afterPath="$PROJECT_DIR$/bower_components/d3/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower.json" afterPath="$PROJECT_DIR$/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/d3/bower.json" afterPath="$PROJECT_DIR$/bower_components/d3/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/d3/d3.js" afterPath="$PROJECT_DIR$/bower_components/d3/d3.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/d3/d3.min.js" afterPath="$PROJECT_DIR$/bower_components/d3/d3.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/summary.html" afterPath="$PROJECT_DIR$/views/summary.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/teams.html" afterPath="$PROJECT_DIR$/views/teams.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/controllers/teamsCtrl.js" afterPath="$PROJECT_DIR$/scripts/controllers/teamsCtrl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/tournaments.html" afterPath="$PROJECT_DIR$/views/tournaments.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/controllers/tournamentsCtrl.js" afterPath="$PROJECT_DIR$/scripts/controllers/tournamentsCtrl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/controllers/summaryCtrl.js" afterPath="$PROJECT_DIR$/scripts/controllers/summaryCtrl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/tournamentSummaries.json" afterPath="$PROJECT_DIR$/data/tournamentSummaries.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="wcVis.iws" />
@@ -33,14 +34,14 @@
     <favorites_list name="wcVis" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.64365834">
+    <splitter split-orientation="horizontal" split-proportion="0.7169974">
       <split-first>
         <leaf>
           <file leaf-file-name="summaryCtrl.js" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/scripts/controllers/summaryCtrl.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="135">
-                  <caret line="0" column="31" selection-start-line="0" selection-start-column="31" selection-end-line="0" selection-end-column="31" />
+                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="435">
+                  <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
                   <folding />
                 </state>
               </provider>
@@ -62,18 +63,6 @@
                 <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="135">
                   <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="30" />
                   <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="summary.html" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/views/summary.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-1.25" vertical-offset="0" max-vertical-offset="120">
-                  <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-                  <folding>
-                    <marker date="1402767158000" expanded="true" signature="21:52" placeholder="..." />
-                  </folding>
                 </state>
               </provider>
             </entry>
@@ -115,8 +104,8 @@
           <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.6230769" vertical-offset="0" max-vertical-offset="1125">
-                  <caret line="27" column="27" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
+                <state vertical-scroll-proportion="0.30769232" vertical-offset="460" max-vertical-offset="1170">
+                  <caret line="44" column="59" selection-start-line="44" selection-start-column="59" selection-end-line="44" selection-end-column="59" />
                   <folding />
                 </state>
               </provider>
@@ -136,11 +125,31 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="routes.js" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="routes.js" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/scripts/routes.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.27977043" vertical-offset="0" max-vertical-offset="697">
-                  <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="30" />
+                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
+                  <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="dataService.js" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/scripts/services/dataService.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="630">
+                  <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="summary.html" pinned="false" current="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/views/summary.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.115384616" vertical-offset="0" max-vertical-offset="650">
+                  <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
                   <folding />
                 </state>
               </provider>
@@ -175,12 +184,13 @@
         <option value="$PROJECT_DIR$/views/tournaments.html" />
         <option value="$PROJECT_DIR$/views/teams.html" />
         <option value="$PROJECT_DIR$/views/games.html" />
-        <option value="$PROJECT_DIR$/views/summary.html" />
         <option value="$PROJECT_DIR$/scripts/controllers/teamsCtrl.js" />
         <option value="$PROJECT_DIR$/scripts/controllers/gamesCtrl.js" />
         <option value="$PROJECT_DIR$/scripts/controllers/tournamentsCtrl.js" />
-        <option value="$PROJECT_DIR$/scripts/controllers/summaryCtrl.js" />
         <option value="$PROJECT_DIR$/scripts/directives/linkDirective.js" />
+        <option value="$PROJECT_DIR$/data/tournamentSummaries.json" />
+        <option value="$PROJECT_DIR$/scripts/controllers/summaryCtrl.js" />
+        <option value="$PROJECT_DIR$/views/summary.html" />
         <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
@@ -299,6 +309,60 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wcVis" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wcVis" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bower_components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wcVis" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wcVis" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bower_components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jquery" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wcVis" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wcVis" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bower_components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jquery" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dist" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -311,6 +375,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
+    <property name="SearchEverywhereHistoryKey" value="tour&#9;FILE&#9;file:///Users/andreas/projects/wcVis/data/tournamentSummaries.json&#10;summ&#9;FILE&#9;file:///Users/andreas/projects/wcVis/views/summary.html&#10;data&#9;FILE&#9;file:///Users/andreas/projects/wcVis/scripts/services/dataService.js" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -373,13 +438,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="830" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.45257452" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18322763" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18322763" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -465,26 +530,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/services/dataService.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="630">
-          <caret line="27" column="15" selection-start-line="27" selection-start-column="15" selection-end-line="27" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/styles/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="804" max-vertical-offset="1530">
           <caret line="95" column="1" selection-start-line="95" selection-start-column="1" selection-end-line="95" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/routes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.27977043" vertical-offset="0" max-vertical-offset="697">
-          <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="30" />
           <folding />
         </state>
       </provider>
@@ -541,24 +590,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/controllers/summaryCtrl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="664">
-          <caret line="0" column="31" selection-start-line="0" selection-start-column="31" selection-end-line="0" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/summary.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.25" vertical-offset="0" max-vertical-offset="120">
-          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-          <folding>
-            <marker date="1402767158000" expanded="true" signature="21:52" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scripts/directives/d3Directives.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1830">
@@ -567,10 +598,50 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/routes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
+          <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/services/dataService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="630">
+          <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/tournamentSummaries.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.36588922" vertical-offset="16339" max-vertical-offset="17280">
+          <caret line="1106" column="25" selection-start-line="1106" selection-start-column="25" selection-end-line="1106" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/controllers/summaryCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="435">
+          <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/summary.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.115384616" vertical-offset="0" max-vertical-offset="650">
+          <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6230769" vertical-offset="0" max-vertical-offset="1125">
-          <caret line="27" column="27" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
+        <state vertical-scroll-proportion="0.30769232" vertical-offset="460" max-vertical-offset="1170">
+          <caret line="44" column="59" selection-start-line="44" selection-start-column="59" selection-end-line="44" selection-end-column="59" />
           <folding />
         </state>
       </provider>
