@@ -1,7 +1,9 @@
 World Cup Data Vis Project
 =====
 
-D3 visuals organized with Angular
+NVD3 visuals organized with Angular
 
-can be served with simple puthon server do from root:
+Can be served with simple python server (run from root):
+```
 python server.py
+```
