@@ -1,3 +1,17 @@
 <div class="controls">
     <h1>{{ name }}</h1>
+    <div class="container">
+        <h3>Total Goals per Tournament</h3>
+        <nvd3-discrete-bar-chart
+                data="goalsPerTournament"
+                id="exampleId"
+                showXAxis="true"
+                showYAxis="true"
+                width="900"
+                height="600"
+                tooltips="true"
+                interactive="true">
+            <svg></svg>
+        </nvd3-discrete-bar-chart>
+    </div>
 </div>
