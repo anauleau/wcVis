@@ -4,7 +4,21 @@
         <h3>Total Goals per Tournament</h3>
         <nvd3-discrete-bar-chart
                 data="goalsPerTournament"
-                id="exampleId"
+                id="goalsPerTournament"
+                showXAxis="true"
+                showYAxis="true"
+                width="900"
+                height="600"
+                tooltips="true"
+                interactive="true">
+            <svg></svg>
+        </nvd3-discrete-bar-chart>
+    </div>
+    <div class="container">
+        <h3>Total Attendance per Tournament</h3>
+        <nvd3-discrete-bar-chart
+                data="attendancePerTournament"
+                id="attendancePerTournament"
                 showXAxis="true"
                 showYAxis="true"
                 width="900"
