@@ -8,6 +8,5 @@ worldCupApp.controller('tournamentsCtrl', ['$scope', 'dataService',
             angular.noop(data);
             $scope.tournaments.push(tournament);
         });
-
         $scope.tournaments.sort();
     }]);

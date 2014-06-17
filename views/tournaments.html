@@ -1,10 +1,52 @@
-<div class="controls">
-    <h1>{{ name }}</h1>
-        <div class="container">
-        <select class="" ng-model="tournament">
-            <option ng-repeat="tournament in tournaments">
-                {{ tournament }} - {{ data.tournaments[tournament].host }}
-            </option>
+<div class="row">
+    <div class="form-group col-xs-6 col-md-4">
+        <label class="control-label">Select a Tournament</label>
+        <select class="form-control" ng-model="tournament">
+            <option ng-repeat="tournament in tournaments">{{ tournament }}</option>
         </select>
+    </div>
+</div>
+<div class="row" ng-hide="!tournament">
+    <div class="col-md-6">
+        <strong>Host Nation(s)</strong>
+    </div>
+    <div class="col-md-6">
+        {{ data.tournaments[tournament].host }}
+    </div>
+    <div class="col-md-6">
+        <strong>Total Goals</strong>
+    </div>
+    <div class="col-md-6">
+        {{ data.tournaments[tournament].summary.totalGoals }}
+    </div>
+    <div class="col-md-6">
+        <strong>Total Attendance</strong>
+    </div>
+    <div class="col-md-6">
+        {{ data.tournaments[tournament].summary.attendance | number }}
+    </div>
+    <div class="col-md-6">
+        <strong>Champion</strong>
+    </div>
+    <div class="col-md-6">
+        {{ data.tournaments[tournament].results.champion }}
+    </div>
+    <div class="col-md-6">
+        <strong>Runner-up</strong>
+    </div>
+    <div class="col-md-6">
+        {{ data.tournaments[tournament].results.second }}
+    </div>
+    <div class="col-md-6">
+        <strong>Third Place</strong>
+    </div>
+    <div class="col-md-6">
+        {{ data.tournaments[tournament].results.third }}
+    </div>
+    <div class="col-md-6">
+        <strong>Fourth Place</strong>
+    </div>
+    <div class="col-md-6">
+        {{ data.tournaments[tournament].results.fourth }}
     </div>
 </div>
