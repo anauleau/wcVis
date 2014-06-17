@@ -94,3 +94,11 @@ body {
     display: inline-block;
     border-radius: 50%;
 }
+.flag {
+    border-color: gray;
+    border-width: 1px;
+    border-style: solid;
+    zoom: 75%;
+    margin-top: 30px
+}
+
