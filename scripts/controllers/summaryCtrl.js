@@ -8,18 +8,32 @@ worldCupApp.controller('summaryCtrl', ['$scope', 'dataService',
         $scope.totalMatchesPlayed = 0;
         $scope.totalAttendence = 0;
 
-        dataService.getTeams().then(function (teams) {
-            angular.forEach(teams, function () {
-                $scope.totalWorldCupTeams ++;
-            });
+        angular.forEach($scope.data.teams, function () {
+            $scope.totalWorldCupTeams ++;
         });
 
-        dataService.getTournaments().then(function (tournaments) {
-            angular.forEach(tournaments, function (value) {
-                $scope.totalWorldCups ++;
-                $scope.totalMatchesPlayed += value.summary.matchesPlayed;
-                $scope.totalGoalsScored += value.summary.totalGoals;
-                $scope.totalAttendence += value.summary.attendance;
-            });
+        angular.forEach($scope.data.tournaments, function (value) {
+            $scope.totalWorldCups ++;
+            $scope.totalMatchesPlayed += value.summary.matchesPlayed;
+            $scope.totalGoalsScored += value.summary.totalGoals;
+            $scope.totalAttendence += value.summary.attendance;
+        });
+
+        $scope.goalsPerTournament = [
+            {
+                "key": "Goals",
+                "values": []
+            }
+        ];
+
+        $scope.attendancePerTournament = [
+            {
+                "key": "Attendance",
+                "values": []
+            }
+        ];
+        angular.forEach($scope.data.tournaments, function (value, key) {
+            $scope.goalsPerTournament[0].values.push([parseInt(key), value.summary.totalGoals]);
+            $scope.attendancePerTournament[0].values.push([parseInt(key), value.summary.attendance]);
         });
     }]);

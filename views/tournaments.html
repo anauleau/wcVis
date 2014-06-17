@@ -1,31 +1,10 @@
 <div class="controls">
     <h1>{{ name }}</h1>
-    <div class="container">
-        <h3>Total Goals per Tournament</h3>
-        <nvd3-discrete-bar-chart
-                data="goalsPerTournament"
-                id="goalsPerTournament"
-                showXAxis="true"
-                showYAxis="true"
-                width="900"
-                height="600"
-                tooltips="true"
-                interactive="true">
-            <svg></svg>
-        </nvd3-discrete-bar-chart>
-    </div>
-    <div class="container">
-        <h3>Total Attendance per Tournament</h3>
-        <nvd3-discrete-bar-chart
-                data="attendancePerTournament"
-                id="attendancePerTournament"
-                showXAxis="true"
-                showYAxis="true"
-                width="900"
-                height="600"
-                tooltips="true"
-                interactive="true">
-            <svg></svg>
-        </nvd3-discrete-bar-chart>
+        <div class="container">
+        <select class="" ng-model="tournament">
+            <option ng-repeat="tournament in tournaments">
+                {{ tournament }} - {{ data.tournaments[tournament].host }}
+            </option>
+        </select>
     </div>
 </div>
