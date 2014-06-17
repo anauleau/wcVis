@@ -102,7 +102,8 @@
             "host":"Brazil",
             "result":"not known"
          }
-      ]
+      ],
+      "code":"br"
    },
    "Italy":{
       "totalAppearances":17,
@@ -197,7 +198,8 @@
             "host":"Brazil",
             "result":"not known"
          }
-      ]
+      ],
+      "code":"it"
    },
    "Germany":{
       "totalAppearances":17,
@@ -292,7 +294,8 @@
             "host":"Brazil",
             "result":"not known"
          }
-      ]
+      ],
+      "code":"de"
    },
    "Argentina":{
       "totalAppearances":15,
@@ -377,7 +380,8 @@
             "host":"Brazil",
             "result":"not known"
          }
-      ]
+      ],
+      "code":"ar"
    },
    "Mexico":{
       "totalAppearances":14,
@@ -457,7 +461,8 @@
             "host":"Brazil",
             "result":"not known"
          }
-      ]
+      ],
+      "code":"mx"
    },
    "England":{
       "totalAppearances":13,
@@ -532,7 +537,8 @@
             "host":"Brazil",
             "result":"not known"
          }
-      ]
+      ],
+      "code":"en"
    },
    "France":{
       "totalAppearances":13,
@@ -607,7 +613,8 @@
             "host":"Brazil",
             "result":"not known"
          }
-      ]
+      ],
+      "code":"fr"
    },
    "Spain":{
       "totalAppearances":13,
@@ -682,7 +689,8 @@
             "host":"Brazil",
             "result":"not known"
          }
-      ]
+      ],
+      "code":"es"
    },
    "Belgium":{
       "totalAppearances":11,
@@ -747,7 +755,8 @@
             "host":"Brazil",
             "result":"not known"
          }
-      ]
+      ],
+      "code":"be"
    },
    "Sweden":{
       "totalAppearances":11,
@@ -807,7 +816,8 @@
             "host":"Germany",
             "result":"roundOf16"
          }
-      ]
+      ],
+      "code":"se"
    },
    "Uruguay":{
       "totalAppearances":11,
@@ -872,7 +882,8 @@
             "host":"Brazil",
             "result":"not known"
          }
-      ]
+      ],
+      "code":"uy"
    },
    "Yugoslavia":{
       "totalAppearances":8,
@@ -917,7 +928,8 @@
             "host":"Italy",
             "result":"quarters"
          }
-      ]
+      ],
+      "code":"yu"
    },
    "Serbia and Montenegro":{
       "totalAppearances":2,
@@ -932,7 +944,8 @@
             "host":"Germany",
             "result":"group"
          }
-      ]
+      ],
+      "code":"smn"
    },
    "Serbia":{
       "totalAppearances":1,
@@ -942,7 +955,8 @@
             "host":"South Africa",
             "result":"group"
          }
-      ]
+      ],
+      "code":"rs"
    },
    "Czech Republic":{
       "totalAppearances":1,
@@ -952,7 +966,8 @@
             "host":"Germany",
             "result":"group"
          }
-      ]
+      ],
+      "code":"cz"
    },
    "Czechoslovakia":{
       "totalAppearances":8,
@@ -997,7 +1012,8 @@
             "host":"Italy",
             "result":"quarters"
          }
-      ]
+      ],
+      "code":"czh"
    },
    "Hungary":{
       "totalAppearances":9,
@@ -1047,7 +1063,8 @@
             "host":"Mexico",
             "result":"group"
          }
-      ]
+      ],
+      "code":"hu"
    },
    "South Korea":{
       "totalAppearances":9,
@@ -1097,7 +1114,8 @@
             "host":"Brazil",
             "result":"not known"
          }
-      ]
+      ],
+      "code":"kr"
    },
    "Netherlands":{
       "totalAppearances":9,
@@ -1152,7 +1170,8 @@
             "host":"Brazil",
             "result":"not known"
          }
-      ]
+      ],
+      "code":"nl"
    },
    "Russia":{
       "totalAppearances":3,
@@ -1172,7 +1191,8 @@
             "host":"Brazil",
             "result":"not known"
          }
-      ]
+      ],
+      "code":"ru"
    },
    "Slovakia":{
       "totalAppearances":9,
@@ -1182,7 +1202,8 @@
             "host":"South Africa",
             "result":"roundOf16"
          }
-      ]
+      ],
+      "code":"sk"
    },
    "Switzerland":{
       "totalAppearances":9,
@@ -1237,7 +1258,8 @@
             "host":"Brazil",
             "result":"not known"
          }
-      ]
+      ],
+      "code":"ch"
    },
    "United States":{
       "totalAppearances":9,
@@ -1292,7 +1314,8 @@
             "host":"Brazil",
             "result":"not known"
          }
-      ]
+      ],
+      "code":"us"
    },
    "Chile":{
       "totalAppearances":8,
@@ -1342,7 +1365,8 @@
             "host":"Brazil",
             "result":"not known"
          }
-      ]
+      ],
+      "code":"cl"
    },
    "Paraguay":{
       "totalAppearances":8,
@@ -1387,7 +1411,8 @@
             "host":"South Africa",
             "result":"quarters"
          }
-      ]
+      ],
+      "code":"py"
    },
    "Scotland":{
       "totalAppearances":8,
@@ -1432,7 +1457,8 @@
             "host":"France",
             "result":"group"
          }
-      ]
+      ],
+      "code":"sct"
    },
    "Austria":{
       "totalAppearances":7,
@@ -1472,7 +1498,8 @@
             "host":"France",
             "result":"group"
          }
-      ]
+      ],
+      "code":"at"
    },
    "Bulgaria":{
       "totalAppearances":7,
@@ -1512,7 +1539,8 @@
             "host":"France",
             "result":"group"
          }
-      ]
+      ],
+      "code":"bg"
    },
    "Poland":{
       "totalAppearances":7,
@@ -1552,7 +1580,8 @@
             "host":"Germany",
             "result":"group"
          }
-      ]
+      ],
+      "code":"pl"
    },
    "Romania":{
       "totalAppearances":7,
@@ -1592,7 +1621,8 @@
             "host":"France",
             "result":"roundOf16"
          }
-      ]
+      ],
+      "code":"ro"
    },
    "Cameroon":{
       "totalAppearances":6,
@@ -1632,7 +1662,8 @@
             "host":"Brazil",
             "result":"not known"
          }
-      ]
+      ],
+      "code":"cm"
    },
    "Japan":{
       "totalAppearances":5,
@@ -1662,7 +1693,8 @@
             "host":"Brazil",
             "result":"not known"
          }
-      ]
+      ],
+      "code":"jp"
    },
    "Portugal":{
       "totalAppearances":5,
@@ -1697,7 +1729,8 @@
             "host":"Brazil",
             "result":"not known"
          }
-      ]
+      ],
+      "code":"pt"
    },
    "Australia":{
       "totalAppearances":4,
@@ -1722,7 +1755,8 @@
             "host":"Brazil",
             "result":"not known"
          }
-      ]
+      ],
+      "code":"au"
    },
    "Colombia":{
       "totalAppearances":4,
@@ -1752,7 +1786,8 @@
             "host":"Brazil",
             "result":"not known"
          }
-      ]
+      ],
+      "code":"co"
    },
    "Denmark":{
       "totalAppearances":4,
@@ -1777,7 +1812,8 @@
             "host":"South Africa",
             "result":"group"
          }
-      ]
+      ],
+      "code":"dk"
    },
    "Iran":{
       "totalAppearances":4,
@@ -1802,7 +1838,8 @@
             "host":"Brazil",
             "result":"not known"
          }
-      ]
+      ],
+      "code":"ir"
    },
    "Morocco":{
       "totalAppearances":4,
@@ -1827,7 +1864,8 @@
             "host":"France",
             "result":"group"
          }
-      ]
+      ],
+      "code":"ma"
    },
    "Nigeria":{
       "totalAppearances":4,
@@ -1857,7 +1895,8 @@
             "host":"Brazil",
             "result":"not known"
          }
-      ]
+      ],
+      "code":"ng"
    },
    "Peru":{
       "totalAppearances":4,
@@ -1882,7 +1921,8 @@
             "host":"Spain",
             "result":"group"
          }
-      ]
+      ],
+      "code":"pe"
    },
    "Saudi Arabia":{
       "totalAppearances":4,
@@ -1907,7 +1947,8 @@
             "host":"Germany",
             "result":"group"
          }
-      ]
+      ],
+      "code":"sa"
    },
    "Tunisia":{
       "totalAppearances":4,
@@ -1932,7 +1973,8 @@
             "host":"Germany",
             "result":"group"
          }
-      ]
+      ],
+      "code":"tn"
    },
    "Algeria":{
       "totalAppearances":3,
@@ -1957,7 +1999,8 @@
             "host":"Brazil",
             "result":"not known"
          }
-      ]
+      ],
+      "code":"dz"
    },
    "Bolivia":{
       "totalAppearances":3,
@@ -1977,7 +2020,8 @@
             "host":"United States",
             "result":"group"
          }
-      ]
+      ],
+      "code":"bo"
    },
    "Costa Rica":{
       "totalAppearances":3,
@@ -2002,7 +2046,8 @@
             "host":"Brazil",
             "result":"not known"
          }
-      ]
+      ],
+      "code":"cr"
    },
    "Croatia":{
       "totalAppearances":3,
@@ -2027,7 +2072,8 @@
             "host":"Brazil",
             "result":"not known"
          }
-      ]
+      ],
+      "code":"hr"
    },
    "Northern Ireland":{
       "totalAppearances":3,
@@ -2047,7 +2093,8 @@
             "host":"Mexico",
             "result":"group"
          }
-      ]
+      ],
+      "code":"nir"
    },
    "Norway":{
       "totalAppearances":3,
@@ -2067,7 +2114,8 @@
             "host":"France",
             "result":"roundOf16"
          }
-      ]
+      ],
+      "code":"no"
    },
    "Republic of Ireland":{
       "totalAppearances":3,
@@ -2087,7 +2135,8 @@
             "host":"South Korea & Japan",
             "result":"roundOf16"
          }
-      ]
+      ],
+      "code":"ie"
    },
    "South Africa":{
       "totalAppearances":3,
@@ -2107,7 +2156,8 @@
             "host":"South Africa",
             "result":"group"
          }
-      ]
+      ],
+      "code":"za"
    },
    "Ivory Coast":{
       "totalAppearances":2,
@@ -2127,7 +2177,8 @@
             "host":"Brazil",
             "result":"not known"
          }
-      ]
+      ],
+      "code":"ci"
    },
    "Ecuador":{
       "totalAppearances":2,
@@ -2147,7 +2198,8 @@
             "host":"Brazil",
             "result":"not known"
          }
-      ]
+      ],
+      "code":"ec"
    },
    "Egypt":{
       "totalAppearances":2,
@@ -2162,7 +2214,8 @@
             "host":"Italy",
             "result":"group"
          }
-      ]
+      ],
+      "code":"eg"
    },
    "Ghana":{
       "totalAppearances":2,
@@ -2182,7 +2235,8 @@
             "host":"Brazil",
             "result":"not known"
          }
-      ]
+      ],
+      "code":"gh"
    },
    "Greece":{
       "totalAppearances":2,
@@ -2202,7 +2256,8 @@
             "host":"Brazil",
             "result":"not known"
          }
-      ]
+      ],
+      "code":"gr"
    },
    "Honduras":{
       "totalAppearances":2,
@@ -2222,7 +2277,8 @@
             "host":"Brazil",
             "result":"not known"
          }
-      ]
+      ],
+      "code":"hn"
    },
    "New Zealand":{
       "totalAppearances":2,
@@ -2237,7 +2293,8 @@
             "host":"South Africa",
             "result":"group"
          }
-      ]
+      ],
+      "code":"nz"
    },
    "North Korea":{
       "totalAppearances":2,
@@ -2252,7 +2309,8 @@
             "host":"South Africa",
             "result":"group"
          }
-      ]
+      ],
+      "code":"kp"
    },
    "El Salvador":{
       "totalAppearances":2,
@@ -2267,7 +2325,8 @@
             "host":"Spain",
             "result":"group"
          }
-      ]
+      ],
+      "code":"sv"
    },
    "Slovenia":{
       "totalAppearances":2,
@@ -2282,7 +2341,8 @@
             "host":"South Africa",
             "result":"group"
          }
-      ]
+      ],
+      "code":"si"
    },
    "Turkey":{
       "totalAppearances":2,
@@ -2297,7 +2357,8 @@
             "host":"South Korea & Japan",
             "result":"third"
          }
-      ]
+      ],
+      "code":"tr"
    },
    "Angola":{
       "totalAppearances":1,
@@ -2307,7 +2368,8 @@
             "host":"Germany",
             "result":"group"
          }
-      ]
+      ],
+      "code":"ao"
    },
    "Canada":{
       "totalAppearances":1,
@@ -2317,9 +2379,10 @@
             "host":"Mexico",
             "result":"group"
          }
-      ]
+      ],
+      "code":"ca"
    },
-   "China PR":{
+   "China":{
       "totalAppearances":1,
       "appearances":[
          {
@@ -2327,7 +2390,8 @@
             "host":"South Korea & Japan",
             "result":"group"
          }
-      ]
+      ],
+      "code":"cn"
    },
    "Democratic Republic of the Congo":{
       "totalAppearances":1,
@@ -2337,7 +2401,8 @@
             "host":"Germany",
             "result":"group"
          }
-      ]
+      ],
+      "code":"cd"
    },
    "Cuba":{
       "totalAppearances":1,
@@ -2347,7 +2412,8 @@
             "host":"France",
             "result":"quarters"
          }
-      ]
+      ],
+      "code":"cu"
    },
    "East Germany":{
       "totalAppearances":1,
@@ -2357,7 +2423,8 @@
             "host":"Germany",
             "result":"quarters"
          }
-      ]
+      ],
+      "code":"egr"
    },
    "Haiti":{
       "totalAppearances":1,
@@ -2367,7 +2434,8 @@
             "host":"Germany",
             "result":"group"
          }
-      ]
+      ],
+      "code":"ht"
    },
    "Indonesia":{
       "totalAppearances":1,
@@ -2377,7 +2445,8 @@
             "host":"France",
             "result":"roundOf16"
          }
-      ]
+      ],
+      "code":"id"
    },
    "Iraq":{
       "totalAppearances":1,
@@ -2387,7 +2456,8 @@
             "host":"Mexico",
             "result":"group"
          }
-      ]
+      ],
+      "code":"iq"
    },
    "Israel":{
       "totalAppearances":1,
@@ -2397,7 +2467,8 @@
             "host":"Mexico",
             "result":"group"
          }
-      ]
+      ],
+      "code":"il"
    },
    "Jamaica":{
       "totalAppearances":1,
@@ -2407,7 +2478,8 @@
             "host":"France",
             "result":"group"
          }
-      ]
+      ],
+      "code":"jm"
    },
    "Kuwait":{
       "totalAppearances":1,
@@ -2417,7 +2489,8 @@
             "host":"Spain",
             "result":"group"
          }
-      ]
+      ],
+      "code":"kw"
    },
    "Senegal":{
       "totalAppearances":1,
@@ -2427,7 +2500,8 @@
             "host":"South Korea & Japan",
             "result":"quarters"
          }
-      ]
+      ],
+      "code":"sn"
    },
    "Togo":{
       "totalAppearances":1,
@@ -2437,7 +2511,8 @@
             "host":"Germany",
             "result":"group"
          }
-      ]
+      ],
+      "code":"tg"
    },
    "Trinidad and Tobago":{
       "totalAppearances":1,
@@ -2447,7 +2522,8 @@
             "host":"Germany",
             "result":"group"
          }
-      ]
+      ],
+      "code":"tt"
    },
    "Ukraine":{
       "totalAppearances":1,
@@ -2457,7 +2533,8 @@
             "host":"Germany",
             "result":"quarters"
          }
-      ]
+      ],
+      "code":"ua"
    },
    "United Arab Emirates":{
       "totalAppearances":1,
@@ -2467,7 +2544,8 @@
             "host":"Italy",
             "result":"group"
          }
-      ]
+      ],
+      "code":"ae"
    },
    "Wales":{
       "totalAppearances":1,
@@ -2477,7 +2555,8 @@
             "host":"Sweden",
             "result":"quarters"
          }
-      ]
+      ],
+      "code":"wa"
    },
    "Bosnia and Herzegovina":{
       "totalAppearances":1,
@@ -2487,7 +2566,8 @@
             "host":"Brazil",
             "result":"not known"
          }
-      ]
+      ],
+      "code":"ba"
    },
    "Soviet Union":{
       "totalAppearances":7,
@@ -2527,6 +2607,7 @@
             "host":"Italy",
             "result":"group"
          }
-      ]
+      ],
+      "code":"su"
    }
 }
