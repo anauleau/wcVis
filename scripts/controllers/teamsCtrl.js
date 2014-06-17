@@ -7,6 +7,5 @@ worldCupApp.controller('teamsCtrl', ['$scope', 'dataService',
             angular.noop(data);
             $scope.teams.push(team);
         });
-
         $scope.teams.sort();
     }]);
