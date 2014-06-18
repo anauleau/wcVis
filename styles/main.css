@@ -101,4 +101,6 @@ body {
     zoom: 75%;
     margin-top: 30px
 }
-
+.barchart {
+    padding: 20px;
+}

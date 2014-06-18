@@ -17,7 +17,6 @@
 - add all finishers (with flags?), in a simple table - (countries clickable?)
 
 #Teams
-- store flag png code in json
 - get missing flags
 - consider historical flags for certain nations (low priority)
 - data grid with all games

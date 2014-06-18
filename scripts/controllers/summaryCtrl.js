@@ -1,4 +1,4 @@
-worldCupApp.controller('summaryCtrl', ['$scope', 'dataService',
+worldCupApp.controller('summaryCtrl', ['$scope', 'dataService', '$filter',
     function ($scope, dataService) {
         // feature summary stats and charts
         $scope.name = "Summary";
@@ -36,4 +36,8 @@ worldCupApp.controller('summaryCtrl', ['$scope', 'dataService',
             $scope.goalsPerTournament[0].values.push([parseInt(key), value.summary.totalGoals]);
             $scope.attendancePerTournament[0].values.push([parseInt(key), value.summary.attendance]);
         });
+
+        $scope.noDec = function (d) {
+            return d;
+        }
     }]);
