@@ -2,6 +2,7 @@ worldCupApp.controller('parentCtrl', ['$scope', 'dataService',
     function ($scope, dataService) {
         $scope.data = {};
         $scope.models = {};
+        $scope.placeIndex = dataService.placeIndex;
 
         // Load tournaments into the parent
         dataService.getTournaments().then(function (tournaments) {

@@ -24,7 +24,7 @@
             <tbody>
                 <tr ng-repeat="appearance in data.teams[models.team].appearances">
                     <td>{{ appearance.year }} ({{ appearance.host }})</td>
-                    <td>{{ appearance.result }}</td>
+                    <td>{{ placeIndex[appearance.result] }}</td>
                 </tr>
             </tbody>
         </table>

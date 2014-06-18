@@ -5,6 +5,17 @@
 worldCupApp.service('dataService', ['$http', '$q',
     function ($http, $q) {
 
+        _placeIndex = {
+            'champion': 'Champion',
+            'second': 'Second Place',
+            'third': 'Third Place',
+            'fourth': 'Fourth Place',
+            'quarters': 'Quarter Finalist',
+            'roundOf16': 'Round of 16',
+            'group': 'Eliminated in Group Play',
+            'not known': 'TBD'
+        }
+
         function _getGames (){
             var deferred = $q.defer();
             $http.get('data/games.json').success(function(result) {
@@ -32,6 +43,7 @@ worldCupApp.service('dataService', ['$http', '$q',
         return {
             getGames: _getGames,
             getTeams: _getTeams,
-            getTournaments: _getTournaments
+            getTournaments: _getTournaments,
+            placeIndex: _placeIndex
         }
     }]);

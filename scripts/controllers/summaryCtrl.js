@@ -18,7 +18,6 @@ worldCupApp.controller('summaryCtrl', ['$scope', 'dataService', '$filter',
             totalGoals += value.summary.totalGoals;
             totalAttendence += value.summary.attendance;
         });
-
         $scope.totalWorldCupTeams = totalTeams;
         $scope.totalWorldCups = totalWorldCups;
         $scope.totalGoalsScored = totalGoals;
@@ -46,4 +45,6 @@ worldCupApp.controller('summaryCtrl', ['$scope', 'dataService', '$filter',
         $scope.noDec = function (d) {
             return d;
         }
+
+        $scope.summaryLoaded = true;
     }]);
