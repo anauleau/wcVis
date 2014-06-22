@@ -5,7 +5,7 @@
                 <label class="control-label">Select a Team</label>
                 <select class="form-control"
                         ng-model="models.team"
-                        ng-options="k as k for (k, v) in newTeams.list">
+                        ng-options="team as team for (team, data) in teams.list">
                 </select>
             </div>
         </form>

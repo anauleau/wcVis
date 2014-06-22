@@ -1,4 +1,4 @@
-worldCupApp.controller('summaryCtrl', ['$scope', 'dataService', '$filter',
+worldCupApp.controller('summaryCtrl', ['$scope', 'dataService',
     function ($scope, dataService) {
         // feature summary stats and charts
         var totalTeams = 0,
