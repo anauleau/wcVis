@@ -3,8 +3,9 @@
         <form class="form-inline" role="form">
             <div class="form-group col-xs-6 col-md-8">
                 <label class="control-label">Select a Team</label>
-                <select class="form-control" ng-model="models.team">
-                    <option ng-repeat="team in teams">{{ team }}</option>
+                <select class="form-control"
+                        ng-model="models.team"
+                        ng-options="k as k for (k, v) in newTeams.list">
                 </select>
             </div>
         </form>
