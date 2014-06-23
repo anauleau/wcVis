@@ -1,17 +1,17 @@
 <div class="container">
     <div class="row">
-        <div class="form-group col-xs-6 col-md-4">
-            <label class="control-label">Select a Tournament</label>
+        <div class="form-inline col-xs-6 col-md-4">
+            <label class="control-label">Select a Tournament Year</label>
             <select class="form-control"
                     data-ng-model="models.tournament"
                     data-ng-options="tournament for (tournament, data) in tournaments.list">
             </select>
         </div>
-        <div class="col-md-4">
-            <img class="poster"
-                data-ng-hide="!models.tournament"
-                data-ng-src="assets/tournament-posters/{{ models.tournament.year }}.jpg">
-        </div>
+    </div>
+    <div class="col-md-9">
+        <img class="poster"
+            data-ng-hide="!models.tournament"
+            data-ng-src="assets/tournament-posters/{{ models.tournament.year }}.jpg">
     </div>
     <div class="col-md-9" data-ng-hide="!models.tournament">
         <div class="row">
