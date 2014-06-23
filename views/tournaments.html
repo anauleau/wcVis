@@ -3,17 +3,17 @@
         <div class="form-group col-xs-6 col-md-4">
             <label class="control-label">Select a Tournament</label>
             <select class="form-control"
-                    ng-model="models.tournament"
-                    ng-options="tournament for (tournament, data) in tournaments.list">
+                    data-ng-model="models.tournament"
+                    data-ng-options="tournament for (tournament, data) in tournaments.list">
             </select>
         </div>
         <div class="col-md-4">
             <img class="poster"
-                ng-hide="!models.tournament"
-                ng-src="assets/tournament-posters/{{ models.tournament.year }}.jpg">
+                data-ng-hide="!models.tournament"
+                data-ng-src="assets/tournament-posters/{{ models.tournament.year }}.jpg">
         </div>
     </div>
-    <div class="col-md-9" ng-hide="!models.tournament">
+    <div class="col-md-9" data-ng-hide="!models.tournament">
         <div class="row">
             <h4>Info</h4>
             <div class="col-md-6">
@@ -61,26 +61,26 @@
             <div class="col-md-6">
                 {{ models.tournament.results.fourth }}
             </div>
-            <div class="col-md-6" ng-hide="!models.tournament.results.quarters">
+            <div class="col-md-6" data-ng-hide="!models.tournament.results.quarters">
                 <strong>Quarter Finals</strong>
             </div>
-            <div class="col-md-6" ng-hide="!models.tournament.results.quarters">
-                <span ng-repeat="qfTeam in models.tournament.results.quarters">
-                    <span ng-show="$last">and </span>{{ qfTeam }}<span ng-show="!$last">, </span><span ng-show="$last">.</span></span>
+            <div class="col-md-6" data-ng-hide="!models.tournament.results.quarters">
+                <span data-ng-repeat="qfTeam in models.tournament.results.quarters">
+                    <span data-ng-show="$last">and </span>{{ qfTeam }}<span data-ng-show="!$last">, </span><span data-ng-show="$last">.</span></span>
             </div>
-            <div class="col-md-6" ng-hide="!models.tournament.results.roundOf16">
+            <div class="col-md-6" data-ng-hide="!models.tournament.results.roundOf16">
                 <strong>Round of 16</strong>
             </div>
-            <div class="col-md-6" ng-hide="!models.tournament.results.roundOf16">
-                <span ng-repeat="r16Team in models.tournament.results.roundOf16">
-                    <span ng-show="$last">and </span>{{ r16Team }}<span ng-show="!$last">, </span><span ng-show="$last">.</span></span>
+            <div class="col-md-6" data-ng-hide="!models.tournament.results.roundOf16">
+                <span data-ng-repeat="r16Team in models.tournament.results.roundOf16">
+                    <span data-ng-show="$last">and </span>{{ r16Team }}<span data-ng-show="!$last">, </span><span data-ng-show="$last">.</span></span>
             </div>
-            <div class="col-md-6" ng-hide="!models.tournament.results.group">
+            <div class="col-md-6" data-ng-hide="!models.tournament.results.group">
                 <strong>Group Stages</strong>
             </div>
-            <div class="col-md-6" ng-hide="!models.tournament.results.group">
-                <span ng-repeat="grpTeam in models.tournament.results.group">
-                    <span ng-show="$last">and </span>{{ grpTeam }}<span ng-show="!$last">, </span><span ng-show="$last">.</span></span>
+            <div class="col-md-6" data-ng-hide="!models.tournament.results.group">
+                <span data-ng-repeat="grpTeam in models.tournament.results.group">
+                    <span data-ng-show="$last">and </span>{{ grpTeam }}<span data-ng-show="!$last">, </span><span data-ng-show="$last">.</span></span>
             </div>
         </div>
     </div>

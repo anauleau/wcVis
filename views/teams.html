@@ -4,32 +4,32 @@
             <div class="form-group col-xs-6 col-md-8">
                 <label class="control-label">Select a Team</label>
                 <select class="form-control"
-                        ng-model="models.team"
-                        ng-options="team for (team, data) in teams.list">
+                        data-ng-model="models.team"
+                        data-ng-options="team for (team, data) in teams.list">
                 </select>
             </div>
         </form>
     </div>
-    <div class="row" ng-hide="!models.team">
+    <div class="row" data-ng-hide="!models.team">
         <div class="col-md-6">
-            <img class="flag" ng-src="assets/country-pngs/{{ models.team.code }}.png">
+            <img class="flag" data-ng-src="assets/country-pngs/{{ models.team.code }}.png">
             <h3>
-                <ng-pluralize
+                <data-ng-pluralize
                     count="models.team.totalAppearances"
                     when="{'1': ' 1 Appearance',
                            'other': '{} Appearances'}">
-                </ng-pluralize>
+                </data-ng-pluralize>
             </h3>
         </div>
     </div>
-    <div class="row col-md-6" ng-hide="!models.team">
+    <div class="row col-md-6" data-ng-hide="!models.team">
         <table class="table table-condensed table-hover">
             <tr>
                 <th>Tournament</th>
                 <th>Result</th>
             </tr>
             <tbody>
-                <tr ng-repeat="appearance in models.team.appearances">
+                <tr data-ng-repeat="appearance in models.team.appearances">
                     <td>{{ appearance.year }} ({{ appearance.host }})</td>
                     <td>{{ placeIndex[appearance.result] }}</td>
                 </tr>
