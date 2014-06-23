@@ -7,6 +7,11 @@
                     ng-options="tournament for (tournament, data) in tournaments.list">
             </select>
         </div>
+        <div class="col-md-4">
+            <img class="poster"
+                ng-hide="!models.tournament"
+                ng-src="assets/tournament-posters/{{ models.tournament.year }}.jpg">
+        </div>
     </div>
     <div class="col-md-9" ng-hide="!models.tournament">
         <div class="row">

@@ -37,7 +37,8 @@
             "Bolivia",
             "Mexico"
          ]
-      }
+      },
+      "year":"1930"
    },
    "1934":{
       "host":"Italy",
@@ -85,7 +86,8 @@
             "Belgium",
             "United States"
          ]
-      }
+      },
+      "year":"1934"
    },
    "1938":{
       "host":"France",
@@ -131,7 +133,8 @@
             "Netherlands",
             "Indonesia"
          ]
-      }
+      },
+      "year":"1938"
    },
    "1950":{
       "host":"Brazil",
@@ -171,7 +174,8 @@
             "Mexico",
             "Bolivia"
          ]
-      }
+      },
+      "year":"1950"
    },
    "1954":{
       "host":"Switzerland",
@@ -219,7 +223,8 @@
             "Scotland",
             "South Korea"
          ]
-      }
+      },
+      "year":"1954"
    },
    "1958":{
       "host":"Sweden",
@@ -267,7 +272,8 @@
             "Austria",
             "Mexico"
          ]
-      }
+      },
+      "year":"1958"
    },
    "1962":{
       "host":"Chile",
@@ -315,7 +321,8 @@
             "Bulgaria",
             "Switzerland"
          ]
-      }
+      },
+      "year":"1962"
    },
    "1966":{
       "host":"England",
@@ -363,7 +370,8 @@
             "Bulgaria",
             "Switzerland"
          ]
-      }
+      },
+      "year":"1966"
    },
    "1970":{
       "host":"Mexico",
@@ -411,7 +419,8 @@
             "Czechoslovakia",
             "El Salvador"
          ]
-      }
+      },
+      "year":"1970"
    },
    "1974":{
       "host":"Germany",
@@ -459,7 +468,8 @@
             "Haiti",
             "Democratic Republic of the Congo"
          ]
-      }
+      },
+      "year":"1974"
    },
    "1978":{
       "host":"Argentina",
@@ -507,7 +517,8 @@
             "Hungary",
             "Mexico"
          ]
-      }
+      },
+      "year":"1978"
    },
    "1982":{
       "host":"Spain",
@@ -571,7 +582,8 @@
             "New Zealand",
             "El Salvador"
          ]
-      }
+      },
+      "year":"1982"
    },
    "1986":{
       "host":"Mexico",
@@ -637,7 +649,8 @@
             "Iraq",
             "Canada"
          ]
-      }
+      },
+      "year":"1986"
    },
    "1990":{
       "host":"Italy",
@@ -703,7 +716,8 @@
             "United States",
             "United Arab Emirates"
          ]
-      }
+      },
+      "year":"1990"
    },
    "1994":{
       "host":"United States",
@@ -769,7 +783,8 @@
             "Morocco",
             "Greece"
          ]
-      }
+      },
+      "year":"1994"
    },
    "1998":{
       "host":"France",
@@ -851,7 +866,8 @@
             "Japan",
             "United States"
          ]
-      }
+      },
+      "year":"1998"
    },
    "2002":{
       "host":"South Korea & Japan",
@@ -933,7 +949,8 @@
             "China PR",
             "Saudi Arabia"
          ]
-      }
+      },
+      "year":"2002"
    },
    "2006":{
       "host":"Germany",
@@ -1015,7 +1032,8 @@
             "Costa Rica",
             "Serbia and Montenegro"
          ]
-      }
+      },
+      "year":"2006"
    },
    "2010":{
       "host":"South Africa",
@@ -1097,15 +1115,16 @@
             "Cameroon",
             "North Korea"
          ]
-      }
+      },
+      "year":"2010"
    },
    "2014":{
       "host":"Brazil",
-       "summary":{
-           "totalGoals":31,
-           "matchesPlayed":9,
-           "attendance":1
-       },
+      "summary":{
+         "totalGoals":31,
+         "matchesPlayed":9,
+         "attendance":1
+      },
       "teams":[
          "Australia",
          "Iran",
@@ -1142,6 +1161,7 @@
       ],
       "results":{
 
-      }
+      },
+      "year":"2014"
    }
 }
