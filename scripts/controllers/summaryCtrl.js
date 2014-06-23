@@ -1,16 +1,16 @@
-worldCupApp.controller('summaryCtrl', ['$scope', 'dataService',
-    function ($scope, dataService) {
+worldCupApp.controller('summaryCtrl', ['$scope', 'dataService', 'sharedData',
+    function ($scope, dataService, sharedData) {
 
         // Attach summary stats to scope
         $scope.summary = {};
         $scope.summary.totalGoalsScored = 0;
         $scope.summary.totalMatchesPlayed = 0;
         $scope.summary.totalAttendence = 0;
-        $scope.summary.totalWorldCupTeams = Object.keys($scope.data.teams).length;
-        $scope.summary.totalWorldCups = Object.keys($scope.data.tournaments).length;
+        $scope.summary.totalWorldCupTeams = Object.keys(sharedData.teams.list).length;
+        $scope.summary.totalWorldCups = Object.keys(sharedData.tournaments.list).length;
 
         // Sum up various stat totals
-        angular.forEach($scope.data.tournaments, function (value) {
+        angular.forEach(sharedData.tournaments.list, function (value) {
             $scope.summary.totalGoalsScored += value.summary.matchesPlayed;
             $scope.summary.totalMatchesPlayed += value.summary.totalGoals;
             $scope.summary.totalAttendence += value.summary.attendance;
@@ -33,7 +33,7 @@ worldCupApp.controller('summaryCtrl', ['$scope', 'dataService',
         ];
 
         // Populate data values for summary view charts
-        angular.forEach($scope.data.tournaments, function (value, key) {
+        angular.forEach(sharedData.tournaments.list, function (value, key) {
             $scope.goalsPerTournament[0].values.push([parseInt(key), value.summary.totalGoals]);
             $scope.attendancePerTournament[0].values.push([parseInt(key), value.summary.attendance]);
         });
