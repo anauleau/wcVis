@@ -5,15 +5,21 @@
                 <label class="control-label">Select a Team</label>
                 <select class="form-control"
                         ng-model="models.team"
-                        ng-options="team as team for (team, data) in teams.list">
+                        ng-options="team for (team, data) in teams.list">
                 </select>
             </div>
         </form>
     </div>
     <div class="row" ng-hide="!models.team">
         <div class="col-md-6">
-            <img class="flag" ng-src="assets/country-pngs/{{ data.teams[models.team].code }}.png">
-            <h3>{{ data.teams[models.team].totalAppearances }} Appearances</h3>
+            <img class="flag" ng-src="assets/country-pngs/{{ models.team.code }}.png">
+            <h3>
+                <ng-pluralize
+                    count="models.team.totalAppearances"
+                    when="{'1': ' 1 Appearance',
+                           'other': '{} Appearances'}">
+                </ng-pluralize>
+            </h3>
         </div>
     </div>
     <div class="row col-md-6" ng-hide="!models.team">
@@ -23,7 +29,7 @@
                 <th>Result</th>
             </tr>
             <tbody>
-                <tr ng-repeat="appearance in data.teams[models.team].appearances">
+                <tr ng-repeat="appearance in models.team.appearances">
                     <td>{{ appearance.year }} ({{ appearance.host }})</td>
                     <td>{{ placeIndex[appearance.result] }}</td>
                 </tr>
