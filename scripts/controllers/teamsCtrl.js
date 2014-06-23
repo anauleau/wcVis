@@ -1,4 +1,5 @@
-worldCupApp.controller('teamsCtrl', ['$scope', 'dataService', 'sharedData',
-    function ($scope, dataService, sharedData) {
+worldCupApp.controller('teamsCtrl', ['$scope', 'sharedData',
+    function ($scope, sharedData) {
+        // attach teams from shared data service to scope
         $scope.teams = sharedData.teams;
     }]);
