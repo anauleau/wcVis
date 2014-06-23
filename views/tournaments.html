@@ -2,11 +2,9 @@
     <div class="row">
         <div class="form-group col-xs-6 col-md-4">
             <label class="control-label">Select a Tournament</label>
-            <select class="form-control" ng-model="models.tournament">
-                <option ng-repeat="tournament in tournaments"
-                        value="{{ tournament }}">
-                        {{ tournament }} - {{ data.tournaments[tournament].host }}
-                </option>
+            <select class="form-control"
+                    ng-model="models.tournament"
+                    ng-options="tournament for (tournament, data) in tournaments.list">
             </select>
         </div>
     </div>
@@ -17,19 +15,19 @@
                 <strong>Host Nation(s)</strong>
             </div>
             <div class="col-md-6">
-                {{ data.tournaments[models.tournament].host }}
+                {{ models.tournament.host }}
             </div>
             <div class="col-md-6">
                 <strong>Total Goals</strong>
             </div>
             <div class="col-md-6">
-                {{ data.tournaments[models.tournament].summary.totalGoals }}
+                {{ models.tournament.summary.totalGoals }}
             </div>
             <div class="col-md-6">
                 <strong>Total Attendance</strong>
             </div>
             <div class="col-md-6">
-                {{ data.tournaments[models.tournament].summary.attendance | number }}
+                {{ models.tournament.summary.attendance | number }}
             </div>
         </div>
         <div class="row">
@@ -38,45 +36,45 @@
                 <strong>Champion</strong>
             </div>
             <div class="col-md-6">
-                {{ data.tournaments[models.tournament].results.champion }}
+                {{ models.tournament.results.champion }}
             </div>
             <div class="col-md-6">
                 <strong>Runner-up</strong>
             </div>
             <div class="col-md-6">
-                {{ data.tournaments[models.tournament].results.second }}
+                {{ models.tournament.results.second }}
             </div>
             <div class="col-md-6">
                 <strong>Third Place</strong>
             </div>
             <div class="col-md-6">
-                {{ data.tournaments[models.tournament].results.third }}
+                {{ models.tournament.results.third }}
             </div>
             <div class="col-md-6">
                 <strong>Fourth Place</strong>
             </div>
             <div class="col-md-6">
-                {{ data.tournaments[models.tournament].results.fourth }}
+                {{ models.tournament.results.fourth }}
             </div>
-            <div class="col-md-6" ng-hide="!data.tournaments[models.tournament].results.quarters">
+            <div class="col-md-6" ng-hide="!models.tournament.results.quarters">
                 <strong>Quarter Finals</strong>
             </div>
-            <div class="col-md-6" ng-hide="!data.tournaments[models.tournament].results.quarters">
-                <span ng-repeat="qfTeam in data.tournaments[models.tournament].results.quarters">
+            <div class="col-md-6" ng-hide="!models.tournament.results.quarters">
+                <span ng-repeat="qfTeam in models.tournament.results.quarters">
                     <span ng-show="$last">and </span>{{ qfTeam }}<span ng-show="!$last">, </span><span ng-show="$last">.</span></span>
             </div>
-            <div class="col-md-6" ng-hide="!data.tournaments[models.tournament].results.roundOf16">
+            <div class="col-md-6" ng-hide="!models.tournament.results.roundOf16">
                 <strong>Round of 16</strong>
             </div>
-            <div class="col-md-6" ng-hide="!data.tournaments[models.tournament].results.roundOf16">
-                <span ng-repeat="r16Team in data.tournaments[models.tournament].results.roundOf16">
+            <div class="col-md-6" ng-hide="!models.tournament.results.roundOf16">
+                <span ng-repeat="r16Team in models.tournament.results.roundOf16">
                     <span ng-show="$last">and </span>{{ r16Team }}<span ng-show="!$last">, </span><span ng-show="$last">.</span></span>
             </div>
-            <div class="col-md-6" ng-hide="!data.tournaments[models.tournament].results.group">
+            <div class="col-md-6" ng-hide="!models.tournament.results.group">
                 <strong>Group Stages</strong>
             </div>
-            <div class="col-md-6" ng-hide="!data.tournaments[models.tournament].results.group">
-                <span ng-repeat="grpTeam in data.tournaments[models.tournament].results.group">
+            <div class="col-md-6" ng-hide="!models.tournament.results.group">
+                <span ng-repeat="grpTeam in models.tournament.results.group">
                     <span ng-show="$last">and </span>{{ grpTeam }}<span ng-show="!$last">, </span><span ng-show="$last">.</span></span>
             </div>
         </div>
