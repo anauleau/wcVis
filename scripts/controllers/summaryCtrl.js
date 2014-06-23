@@ -1,18 +1,19 @@
 worldCupApp.controller('summaryCtrl', ['$scope', 'dataService',
     function ($scope, dataService) {
-        
+
         // Attach summary stats to scope
-        $scope.totalGoalsScored = 0;
-        $scope.totalMatchesPlayed = 0;
-        $scope.totalAttendence = 0;
-        $scope.totalWorldCupTeams = Object.keys($scope.data.teams).length;
-        $scope.totalWorldCups = Object.keys($scope.data.tournaments).length;
+        $scope.summary = {};
+        $scope.summary.totalGoalsScored = 0;
+        $scope.summary.totalMatchesPlayed = 0;
+        $scope.summary.totalAttendence = 0;
+        $scope.summary.totalWorldCupTeams = Object.keys($scope.data.teams).length;
+        $scope.summary.totalWorldCups = Object.keys($scope.data.tournaments).length;
 
         // Sum up various stat totals
         angular.forEach($scope.data.tournaments, function (value) {
-            $scope.totalGoalsScored += value.summary.matchesPlayed;
-            $scope.totalMatchesPlayed += value.summary.totalGoals;
-            $scope.totalAttendence += value.summary.attendance;
+            $scope.summary.totalGoalsScored += value.summary.matchesPlayed;
+            $scope.summary.totalMatchesPlayed += value.summary.totalGoals;
+            $scope.summary.totalAttendence += value.summary.attendance;
         });
 
         // Initialize goals per tournament chart obj for nvd3 directive - TODO: create class & move to service
@@ -22,7 +23,7 @@ worldCupApp.controller('summaryCtrl', ['$scope', 'dataService',
                 "values": []
             }
         ];
-        
+
         // Initialize attendance per tournament chart obj for nvd3 directive - TODO: create class & move to service
         $scope.attendancePerTournament = [
             {
@@ -30,7 +31,7 @@ worldCupApp.controller('summaryCtrl', ['$scope', 'dataService',
                 "values": []
             }
         ];
-        
+
         // Populate data values for summary view charts
         angular.forEach($scope.data.tournaments, function (value, key) {
             $scope.goalsPerTournament[0].values.push([parseInt(key), value.summary.totalGoals]);
