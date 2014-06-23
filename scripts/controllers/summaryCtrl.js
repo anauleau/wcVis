@@ -1,50 +1,47 @@
 worldCupApp.controller('summaryCtrl', ['$scope', 'dataService',
     function ($scope, dataService) {
-        // feature summary stats and charts
-        var totalTeams = 0,
-            totalMatches = 0,
-            totalWorldCups = 0,
-            totalGoals = 0,
-            totalAttendence = 0;
-        $scope.name = "Summary";
+        
+        // Attach summary stats to scope
+        $scope.totalGoalsScored = 0;
+        $scope.totalMatchesPlayed = 0;
+        $scope.totalAttendence = 0;
+        $scope.totalWorldCupTeams = Object.keys($scope.data.teams).length;
+        $scope.totalWorldCups = Object.keys($scope.data.tournaments).length;
 
-        angular.forEach($scope.data.teams, function () {
-            totalTeams ++;
-        });
-
+        // Sum up various stat totals
         angular.forEach($scope.data.tournaments, function (value) {
-            totalWorldCups ++;
-            totalMatches += value.summary.matchesPlayed;
-            totalGoals += value.summary.totalGoals;
-            totalAttendence += value.summary.attendance;
+            $scope.totalGoalsScored += value.summary.matchesPlayed;
+            $scope.totalMatchesPlayed += value.summary.totalGoals;
+            $scope.totalAttendence += value.summary.attendance;
         });
-        $scope.totalWorldCupTeams = totalTeams;
-        $scope.totalWorldCups = totalWorldCups;
-        $scope.totalGoalsScored = totalGoals;
-        $scope.totalMatchesPlayed = totalMatches;
-        $scope.totalAttendence = totalAttendence;
 
+        // Initialize goals per tournament chart obj for nvd3 directive - TODO: create class & move to service
         $scope.goalsPerTournament = [
             {
                 "key": "Goals",
                 "values": []
             }
         ];
-
+        
+        // Initialize attendance per tournament chart obj for nvd3 directive - TODO: create class & move to service
         $scope.attendancePerTournament = [
             {
                 "key": "Attendance",
                 "values": []
             }
         ];
+        
+        // Populate data values for summary view charts
         angular.forEach($scope.data.tournaments, function (value, key) {
             $scope.goalsPerTournament[0].values.push([parseInt(key), value.summary.totalGoals]);
             $scope.attendancePerTournament[0].values.push([parseInt(key), value.summary.attendance]);
         });
 
+        // Removes decimal point from tick in charts
         $scope.noDec = function (d) {
             return d;
         }
 
+        // Renders summary page viewable after all stats have been counted
         $scope.summaryLoaded = true;
     }]);
