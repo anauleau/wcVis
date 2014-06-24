@@ -11,7 +11,7 @@
     <div class="col-md-9">
         <img class="poster"
             data-ng-hide="!models.tournament"
-            data-ng-src="assets/tournament-posters/{{ models.tournament.year }}.jpg">
+            data-ng-src="assets/tournament-posters/{{ models.tournament.year || 'blank'}}.jpg">
     </div>
     <div class="col-md-9" data-ng-hide="!models.tournament">
         <div class="row">
