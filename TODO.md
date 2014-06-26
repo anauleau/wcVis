@@ -1,8 +1,5 @@
 #General
-- move model definition to parent controller so the values aren't destroyed on departure
 - investigate caching - should be fairly simple using angular
-- edit color scheme
-- change fonts
 - toggle active class on side navigation change
 - styling throughout the application
 
@@ -17,8 +14,6 @@
 - add all finishers (with flags?), in a simple table - (countries clickable?)
 
 #Teams
-- get missing flags
-- consider historical flags for certain nations (low priority)
 - data grid with all games
 - add football association logos
 
