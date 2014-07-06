@@ -12,7 +12,9 @@
     </div>
     <div class="row" data-ng-hide="!models.team">
         <div class="col-md-6">
-            <img class="flag" data-ng-src="assets/country-pngs/{{ models.team.code || 'blank' }}.png">
+            <img class="flag"
+                 data-ng-if="models.team"
+                 data-ng-src="assets/country-pngs/{{ models.team.code }}.png">
             <h3>
                 <data-ng-pluralize
                     count="models.team.totalAppearances"
